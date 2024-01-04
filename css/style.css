@@ -1210,6 +1210,11 @@ textarea.form-input::-webkit-resizer {
   transition: var(--transition-1);
 }
 
+.form-btn input {
+    color: var(--orange-yellow-crayola);
+    border: none;
+}
+
 .form-btn::before {
   content: "";
   position: absolute;
