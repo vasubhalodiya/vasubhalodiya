@@ -23,6 +23,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4121CY7CG5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4121CY7CG5');
+</script>
+
 </head>
 
 <body>
@@ -818,7 +829,7 @@
                             width="400" height="300" loading="lazy"></iframe>
                     </figure>
                 </section>
-                <section class="contact-form">
+                <!-- <section class="contact-form">
                     <h3 class="h3 form-title">Contact Form</h3>
                     <form action="mailto:vasubhalodiya30@gmail.com" method="post" enctype="text/plain" class="form" data-form>
                         <div class="input-wrapper">
@@ -828,8 +839,27 @@
                         <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
                         <button class="form-btn" type="submit" disabled data-form-btn>
                             <ion-icon name="paper-plane"></ion-icon>
-                            <input type="submit" value="Send Message">
-                            <!-- <span>Send Message</span> -->
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </section> -->
+                <section class="contact-form">
+                    <h3 class="h3 form-title">Contact Form</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST" class="form" >
+            <!-- ********************* -->
+                        <input type="hidden" name="access_key" value="5bc96090-1b34-44a1-89b8-fab90b3d1116">
+                        <input type="hidden" name="from_name" value="Vasu Portfolio msg">
+                        <input type="hidden" name="replyto" value="vasubhalodiya30@gmail.com" />
+            <!-- ********************* -->
+                        <div class="input-wrapper">
+                            <input type="text" name="fullname" class="form-input" placeholder="Full name" required>
+                            <input type="email" name="email" class="form-input" placeholder="Email address" required>
+                        </div>
+                        <textarea name="message" class="form-input" placeholder="Your Message" required></textarea>
+                        <button class="form-btn" type="submit">
+                            <ion-icon name="paper-plane"></ion-icon>
+                            <!-- <input type="submit" value="Send Message"> -->
+                            <span>Send Message</span>
                         </button>
                     </form>
                 </section>
