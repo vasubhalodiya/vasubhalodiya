@@ -38,6 +38,11 @@ p
     border-radius: 10px;
 }
 
+.article-slider
+{
+    margin-top: 20px;
+}
+
 .slider-img
 {
     text-align: center !important;
