@@ -3,6 +3,7 @@
     background: linear-gradient(140deg, #D2A8FF 12.09%, #F778BA 42.58%, #FF7B72 84.96%);
     background-clip: text;
     -webkit-text-fill-color: rgba(0,0,0,0);
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 
@@ -36,6 +37,18 @@ p
     width: 100%;
     border-radius: 10px;
 }
+
+.slider-img
+{
+    text-align: center !important;
+    margin: 0px 10px;
+}
+
+.slider-img img
+{
+    width: 100%;
+    border-radius: 10px;
+} 
 
 @media (max-width: 1025px) {
     .article-content
