@@ -53,7 +53,7 @@
       - #SIDEBAR
     -->
 
-    <aside class="sidebar" style="padding-top: 30px;" data-sidebar>
+    <aside class="sidebar" data-sidebar>
         <div class="sidebar-info">
             <figure class="avatar-box">
                 <img src="./images/my-avatar.png" alt="vasu bhalodiya" width="80">
@@ -68,6 +68,7 @@
     </button>
         </div>
         <div class="sidebar-info_more">
+            <div class="separator"></div>
             <ul class="contacts-list">
                 <!-- <li class="contact-item">
                     <div class="icon-box">
@@ -107,8 +108,8 @@
                 </li> -->
             </ul>
 
-            <div class="separator-line"></div>
-            <ul class="social-list" style="margin-top: 30px;">
+            <div class="separator"></div>
+            <ul class="social-list">
                 <li class="social-item">
                     <a href="https://www.instagram.com/vasubhalodiya_/" class="social-link">
                         <ion-icon name="logo-instagram"></ion-icon>
