@@ -255,13 +255,38 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <script>
-        $('.article-slider').slick({
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        arrows: false, 
-        dots: false,
-        autoplay: true,
-        autoplaySpeed: 5000
+        $(document).ready(function () {
+            $('.article-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                arrows: false, 
+                dots: false,
+                autoplay: true,
+                autoplaySpeed: 5000,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1
+                        }
+                    }
+                ]
+            });
         });
   </script>
 
