@@ -26,10 +26,18 @@
     </head>
 <!-- ******************************************************************************************** -->
     <body>
+        <!-- <div class="clipboard">
+            <input onclick="copy()" class="copy-input" value="hello@vasubhalodiya.dev" id="copyClipboard" readonly>
+            <button class="copy-btn" id="copyButton" onclick="copy()"><i class="far fa-copy"></i></button>
+        </div>
+        <div id="copied-success" class="copied">
+            <span>Copied!</span>
+        </div> -->
         <div class="main" id="main-site">
-        
-            
+            <h1>STACK</h1>
 
+
+            
             
         </div>
 <!-- ******************************************************************************************** -->
@@ -39,6 +47,18 @@
         <script src="js/wow.min.js"></script>
         <script src="js/script.js"></script>
 
+        <!-- <script>
+            function copy() {
+                let copyText = document.getElementById("copyClipboard");
+                let copySuccess = document.getElementById("copied-success");
+                // copyText.select();
+                // copyText.setSelectionRange(0, 99999);
+                navigator.clipboard.writeText(copyText.value);
+
+                copySuccess.style.opacity = "1";
+                setTimeout(function () { copySuccess.style.opacity = "0" }, 500);
+            }
+        </script> -->
 
     </body>
 </html>
