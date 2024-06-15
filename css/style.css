@@ -265,8 +265,52 @@
 /* ************** */
 
 @font-face {
-    font-family: 'St-Regular';
-    src: url(../css/fonts/Satoshi/Satoshi-Regular.otf);
+    font-family: 'Gs-Bold';
+    src: url(../css/fonts/General-sans/GeneralSans-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Gs-ExtraLight';
+    src: url(../css/fonts/General-sans/GeneralSans-Extralight.otf);
+}
+
+@font-face {
+    font-family: 'Gs-Light';
+    src: url(../css/fonts/General-sans/GeneralSans-Light.otf);
+}
+
+@font-face {
+    font-family: 'Gs-Medium';
+    src: url(../css/fonts/General-sans/GeneralSans-Medium.otf);
+}
+
+@font-face {
+    font-family: 'Gs-Regular';
+    src: url(../css/fonts/General-sans/GeneralSans-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Gs-SemiBold';
+    src: url(../css/fonts/General-sans/GeneralSans-Semibold.otf);
+}
+
+/* ************** */
+
+@font-face {
+    font-family: 'Hf-Regular';
+    src: url(../css/fonts/Header-Font/Header-Font.ttf);
+}
+
+/* ************** */
+
+@font-face {
+    font-family: 'Og-Bold';
+    src: url(../css/fonts/Organetto/organetto-bold.otf);
+}
+
+@font-face {
+    font-family: 'Og-ExtraBold';
+    src: url(../css/fonts/Organetto/organetto-extrabold.otf);
 }
 
 /* Signature Font */
@@ -309,7 +353,8 @@ abbr[title] {
 }
 body{
     font-family: 'Poppins-Regular';
-    background-color: #141414;
+    /* background-color: #141414; */
+    background-color: #0b0b0b;
 }
 .p_0{
     padding: 0px;
@@ -329,13 +374,44 @@ li{
 }
 .container{
     width: 100%;
-    max-width: 1170px;
+    /* max-width: 1170px; */
+    max-width: 97%;
     margin: 0px auto;
 }
 
 /* ******************************************************************************************** */
 
+:root {
 
+    /* All Colors */
+        /* Font colors */
+        --primary-color: #e9e9e9;
+        --content-color: #929190;
+        --other-color: #3c3c3c;
+
+        /* Background Colors */
+        --main-background: #0b0b0b;
+        --card-bg-color: #1C1C1C;
+        --other-bg-color: #262626;
+        --messagebox-primary-bg-color: #3a3a3a;
+        --messagebox-sedong-bg-color: #026dfd;
+
+    /* Fonts */
+    --heading: 'Gs-SemiBold'; 
+    --content: 'Gs-Regular';
+    --stream-font: 'Og-Bold';
+        
+    /* Font Size */
+    --heading-size: 30px;
+    --content-size: 16px;
+    --mini-content-size: 14px;
+
+}
+
+::-webkit-scrollbar{width: 3px;}
+::-webkit-scrollbar-track{background: #383838;}
+::-webkit-scrollbar-thumb{background: #626262;border-radius: 10px;}
+::-webkit-scrollbar-thumb:hover{background: #818181;border-radius: 10px;}
 
 /* ******************************************************************************************** */
 /* .clipboard {
@@ -398,13 +474,154 @@ li{
 } */
 
 /* **************************************************************************************** */
+.home
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.navbar
+{
+    padding: 0;
+}
+
+.navbar-content
+{
+    width: 100%;
+    padding: 25px 0px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+
+.navbar-content h3
+{
+    color: var(--primary-color);
+    font-size: 23px;
+    font-family: var(--heading);
+    letter-spacing: 1px;
+}
+
+.nav-social-media ul
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-social-media a
+{
+    color: var(--primary-color);
+}
+
+.nav-social-media i
+{
+    font-size: 19px;
+    /* padding: 13px 15px; */
+}
+/* 
+.nav-social-media i:hover
+{
+    background-color: #32323289;
+    padding: 13px 15px;
+    border-radius: 7px;
+} */
+
+/* **************************************************************************************************** */
+
+.header-stream ul
+{
+    margin-bottom: 10px;
+}
+
+.header-stream h1
+{
+    color: var(--primary-color);
+    font-size: 45px;
+    font-family: var(--stream-font);
+}
+
+.header-slogan h6
+{
+    color: var(--content-color);
+    font-size: 17px;
+    font-family: var(--content);
+    letter-spacing: 0.5px;
+    margin-bottom: 40px;
+}
+    
+.header-chat-content a
+{
+    color: var(--main-background);
+    background-color: var(--primary-color);
+    font-size: var(--content-size);
+    font-family: 'Gs-Medium';
+    padding: 10px 20px;
+    border-radius: 50px;
+}
 
+.header-active 
+{
+    max-width: 180px;
+    background-color: var(--other-bg-color);
+    padding: 5px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: -4px;
+}
 
+.header-active p 
+{
+    color: var(--primary-color);
+    font-size: var(--content-size);
+    font-family: var(--content);
+}
 
+.ping 
+{
+    position: relative;
+    padding-left: 20px;
+}
 
+.ping::before,
+.ping::after 
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 9px;
+    height: 9px;
+    /* margin-left: 10px; */
+    margin-top: -5px;
+    border-radius: 50%;
+    background-color: #1cfabc;
+}
 
+.ping::before 
+{
+    animation: ping 1.7s ease infinite;
+    opacity: 0.25;
+}
 
+@keyframes ping 
+{
+    0% {
+        transform: scale(1);
+        opacity: 0.5;
+    }
 
+    100% {
+        transform: scale(3);
+        opacity: 0;
+    }
+}
 
 
 
@@ -460,20 +677,7 @@ li{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
 
