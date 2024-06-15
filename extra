@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Welcome</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontawesome-all.css" >
+        <link rel="stylesheet" href="css/searchboxstyle.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css" >
+        <link rel="stylesheet" href="css/responsive.css" >
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6880c7d510.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+        href="/css/app-wa-fba26eda6a3fd6b4d0ce0def1e2ba1d7.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    </head>
+<!-- ******************************************************************************************** -->
+    <body>
+        <!-- <div class="clipboard">
+            <input onclick="copy()" class="copy-input" value="hello@vasubhalodiya.dev" id="copyClipboard" readonly>
+            <button class="copy-btn" id="copyButton" onclick="copy()"><i class="far fa-copy"></i></button>
+        </div>
+        <div id="copied-success" class="copied">
+            <span>Copied!</span>
+        </div> -->
+        <div class="main" id="main-site">
+            <div class="home">
+                <div class="navbar">
+                    <div class="container">
+                        <div class="navbar-content">
+                            <div class="nav-logo">
+                                <h3>vasu.</h3>
+                            </div>
+                            <div class="nav-social-media">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header">
+                    <div class="container">
+                        <div class="header-content">
+                            <div class="header-stream">
+                                <ul>
+                                    <li><h1>WEB DESIGNER</h1></li>
+                                    <li><h1>FRONTEND DEVELOPER</h1></li>
+                                </ul>
+                                <div class="header-slogan">
+                                    <h6>Shaping digital interfaces, farming functional experiences.</h6>
+                                </div>
+                                <div class="header-ping-active">
+                                    <div class="header-active">
+                                        <div class="ping"></div>
+                                        <p>Avaliable for work</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header-chat">
+                    <div class="container">
+                        <div class="header-chat-content">
+                            <a href="#">Let's chat</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="container">
+                    <div class="about-grid-content">
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <div class="grid-devision">
+                                    <div class="row">
+                                        <div class="col-lg-10">
+                                            <div class="grid-cnt">
+                                                <div class="grid-cnt-img">
+                                                    <img src="images/vasu.jpg" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <div class="grid-cnt">
+                                                <div class="grid-cnt-resume">
+                                                    <h3>Resume</h3>
+                                                    <a href="#">Download Resume</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>  
+                            </div>
+                            <div class="col-lg-5">
+                                <div class="grid-devision">
+
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="grid-devision">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+        </div>
+<!-- ******************************************************************************************** -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/script.js"></script>
+
+        <!-- <script>
+            function copy() {
+                let copyText = document.getElementById("copyClipboard");
+                let copySuccess = document.getElementById("copied-success");
+                // copyText.select();
+                // copyText.setSelectionRange(0, 99999);
+                navigator.clipboard.writeText(copyText.value);
+
+                copySuccess.style.opacity = "1";
+                setTimeout(function () { copySuccess.style.opacity = "0" }, 500);
+            }
+        </script> -->
+
+    </body>
+</html>

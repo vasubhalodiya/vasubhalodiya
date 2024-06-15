@@ -403,7 +403,7 @@ li{
         
     /* Font Size */
     --heading-size: 30px;
-    --content-size: 16px;
+    --content-size: 17px;
     --mini-content-size: 14px;
 
 }
@@ -628,79 +628,106 @@ li{
 .about-grid
 {
     padding: 100px 0px;
+    padding-top: 50px;
 }
 
-.grid-devision
+.about-grid-border
+{
+    border-top: 1px solid rgb(36, 36, 36);
+}
+
+.about-grid-content
+{
+    padding: 100px;
+}
+
+.grid-container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-auto-columns: 1fr;
+    gap: 15px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "grid-about grid-about grid-profile grid-links"
+        "grid-linkedin grid-stack grid-project grid-project"
+        "grid-experience grid-experience grid-project grid-project"
+        "grid-skill grid-skill grid-email grid-email";
+}
+
+.grid-cnt {
+    width: 100%;
+    height: 300px;
+    background-color: #161616;
+    border-radius: 15px;
+    padding: 20px;
+    border: 1px solid rgb(37, 37, 37);
+}
+
+.grid-about {
+    grid-area: grid-about;
+}
+
+.grid-profile {
+    grid-area: grid-profile;
+}
+
+.grid-links {
+    grid-area: grid-links;
+}
+
+.grid-linkedin {
+    grid-area: grid-linkedin;
+}
+
+.grid-stack {
+    grid-area: grid-stack;
+}
+
+.grid-project {
+    height: 100%;
+    grid-area: grid-project;
+}
+
+.grid-experience {
+    grid-area: grid-experience;
+}
+
+.grid-skill {
+    grid-area: grid-skill;
+}
+
+.grid-email {
+    grid-area: grid-email;
+}
+
+.grid-sec-head h3
+{
+    color: var(--primary-color);
+    font-size: var(--heading-size);
+    font-family: var(--heading);
+    text-transform: uppercase;
+}
+
+.grid-about-cnt
 {
     width: 100%;
-    display: flex;
-    /* flex-direction: column; */
-    align-items: center;
-    gap: 10px;
-}
-
-.grid-devision .row
-{
+    height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     justify-content: space-between;
-    gap: 10px;
 }
 
-.grid-cnt
+.grid-about-dtl p
 {
-    width: 100%;
-    border: 1px solid red;
+    color: var(--content-color);
+    font-size: var(--content-size);
+    font-family: var(--content);
+    letter-spacing: 0.7px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   
 
