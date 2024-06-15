@@ -219,14 +219,64 @@
     font-display:swap;
 }
 
-/* Custome Fonts */
+/* ********************* */
+/* Inter */
 
 @font-face {
-    font-family: 'Font-Name';
-    src: url(../css/fonts/);
+    font-family: 'Int-Bold';
+    src: url(../css/fonts/Inter/Inter-Bold.ttf);
 }
 
-/* ************* */
+@font-face {
+    font-family: 'Int-ExtraBold';
+    src: url(../css/fonts/Inter/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: 'Int-ExtraLight';
+    src: url(../css/fonts/Inter/Inter-ExtraLight.ttf);
+}
+
+@font-face {
+    font-family: 'Int-Light';
+    src: url(../css/fonts/Inter/Inter-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Int-Medium';
+    src: url(../css/fonts/Inter/Inter-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Int-Regular';
+    src: url(../css/fonts/Inter/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Int-SemiBold';
+    src: url(../css/fonts/Inter/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'Int-Thin';
+    src: url(../css/fonts/Inter/Inter-Thin.ttf);
+}
+
+/* ************** */
+
+@font-face {
+    font-family: 'St-Regular';
+    src: url(../css/fonts/Satoshi/Satoshi-Regular.otf);
+}
+
+/* Signature Font */
+
+@font-face {
+    font-family: 'Signature-Font';
+    src: url(../css/fonts/Signature/Blowing-Signature.ttf);
+}
+
+/* ********************* */
 
 img{max-width:100%;}
 input.text,
@@ -347,18 +397,10 @@ li{
     transition: .4s opacity;
 } */
 
+/* **************************************************************************************** */
 
 
 
-
-
-
-h1
-{
-    color: white;
-    background-color: #1C1C1C;
-    font-family: 'Poppins-Bold';
-}
 
 
 
