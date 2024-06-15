@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: sans-serif;
+            color: #fff;
+        }
+
+        #B1 {
+            grid-area: B1;
+            background-color: #1C1C1C;
+        }
+
+        #B2 {
+            grid-area: B2;
+            background-color: #1C1C1C;
+        }
+
+        #B3 {
+            grid-area: B3;
+            background-color: #1C1C1C;
+        }
+
+        #B4 {
+            grid-area: B4;
+            background-color: #1C1C1C;
+        }
+
+        #B5 {
+            grid-area: B5;
+            background-color: #1C1C1C;
+        }
+
+        #B6 {
+            grid-area: B6;
+            background-color: #1C1C1C;
+        }
+
+        #B7 {
+            grid-area: B7;
+            background-color: #1C1C1C;
+        }
+
+        #B8 {
+            grid-area: B8;
+            background-color: #1C1C1C;
+        }
+
+        .bentoWrapper {
+            max-width: 80%;
+            height: 90vh;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-areas:"B1 B1 B1 B1 B3 B3 B3 B3 B3 B6 B6 B6"
+                                "B1 B1 B1 B1 B3 B3 B3 B3 B3 B6 B6 B6"
+                                "B1 B1 B1 B1 B3 B3 B3 B3 B3 B6 B6 B6"
+                                "B1 B1 B1 B1 B3 B3 B3 B3 B3 B7 B7 B7"
+                                "B1 B1 B1 B1 B3 B3 B3 B3 B3 B7 B7 B7"
+                                "B1 B1 B1 B1 B4 B4 B4 B4 B4 B7 B7 B7"
+                                "B1 B1 B1 B1 B4 B4 B4 B4 B4 B7 B7 B7"
+                                "B1 B1 B1 B1 B4 B4 B4 B4 B4 B7 B7 B7"
+                                "B1 B1 B1 B1 B4 B4 B4 B4 B4 B7 B7 B7"
+                                "B1 B1 B1 B1 B4 B4 B4 B4 B4 B8 B8 B8"
+                                "B2 B2 B2 B2 B5 B5 B5 B5 B5 B8 B8 B8"
+                                "B2 B2 B2 B2 B5 B5 B5 B5 B5 B8 B8 B8";
+            grid-gap: 10px;
+        }
+
+        .bento {
+            border-radius: 12px;
+            padding: 20px;
+        }
+
+        @media screen and (max-width: 764px) {
+            .bentoWrapper {
+                grid-template-columns: 1fr;
+                grid-template-areas: "B1" "B2" "B3" "B4";
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="bentoWrapper">
+            <div class="bento" id="B1">Bento1</div>
+            <div class="bento" id="B2">Bento2</div>
+            <div class="bento" id="B3">Bento3</div>
+            <div class="bento" id="B4">Bento4</div>
+            <div class="bento" id="B5">Bento5</div>
+            <div class="bento" id="B6">Bento6</div>
+            <div class="bento" id="B7">Bento7</div>
+            <div class="bento" id="B8">Bento8</div>
+        </div>
+    </section>
+</body>
+
+</html>
