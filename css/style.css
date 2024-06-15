@@ -386,7 +386,7 @@ li{
     /* All Colors */
         /* Font colors */
         --primary-color: #e9e9e9;
-        --content-color: #929190;
+        --content-color: #a6a6a6;
         --other-color: #3c3c3c;
 
         /* Background Colors */
@@ -566,7 +566,7 @@ li{
 
 .header-active 
 {
-    max-width: 180px;
+    max-width: 190px;
     background-color: var(--other-bg-color);
     padding: 5px 15px;
     border-radius: 20px;
@@ -662,7 +662,6 @@ li{
     height: 300px;
     background-color: #161616;
     border-radius: 15px;
-    padding: 20px;
     border: 1px solid rgb(37, 37, 37);
 }
 
@@ -718,6 +717,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: left;
+    padding: 20px;
     justify-content: space-between;
 }
 
