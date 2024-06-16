@@ -297,13 +297,6 @@
 /* ************** */
 
 @font-face {
-    font-family: 'Hf-Regular';
-    src: url(../css/fonts/Header-Font/Header-Font.ttf);
-}
-
-/* ************** */
-
-@font-face {
     font-family: 'Og-Bold';
     src: url(../css/fonts/Organetto/organetto-bold.otf);
 }
@@ -311,6 +304,18 @@
 @font-face {
     font-family: 'Og-ExtraBold';
     src: url(../css/fonts/Organetto/organetto-extrabold.otf);
+}
+
+/* ************** */
+
+@font-face {
+    font-family: 'Cg-Regular';
+    src: url(../css/fonts/Cabinet-Grotesk/CabinetGrotesk-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Cg-Light';
+    src: url(../css/fonts/Cabinet-Grotesk/CabinetGrotesk-Light.otf);
 }
 
 /* Signature Font */
@@ -388,6 +393,7 @@ li{
         --primary-color: #e9e9e9;
         --content-color: #a6a6a6;
         --other-color: #3c3c3c;
+        --border-color: #252525;
 
         /* Background Colors */
         --main-background: #0b0b0b;
@@ -633,15 +639,18 @@ li{
 
 .about-grid-border
 {
-    border-top: 1px solid rgb(36, 36, 36);
+    border-top: 1px solid var(--border-color);
 }
 
 .about-grid-content
 {
-    padding: 100px;
+    padding: 100px 0px;
+    max-width: 1200px;
+    margin: auto;
 }
 
-.grid-container {
+.grid-container 
+{
     width: 100%;
     height: 100%;
     display: grid;
@@ -657,48 +666,59 @@ li{
         "grid-skill grid-skill grid-email grid-email";
 }
 
-.grid-cnt {
+.grid-cnt 
+{
     width: 100%;
     height: 300px;
     background-color: #161616;
     border-radius: 15px;
-    border: 1px solid rgb(37, 37, 37);
+    border: 1px solid var(--border-color);
 }
 
-.grid-about {
+.grid-about 
+{
     grid-area: grid-about;
+    transition: all 0.5s ease;
 }
 
-.grid-profile {
+.grid-profile 
+{
     grid-area: grid-profile;
 }
 
-.grid-links {
+.grid-links 
+{
     grid-area: grid-links;
 }
 
-.grid-linkedin {
+.grid-linkedin 
+{
     grid-area: grid-linkedin;
 }
 
-.grid-stack {
+.grid-stack 
+{
     grid-area: grid-stack;
 }
 
-.grid-project {
+.grid-project 
+{
     height: 100%;
     grid-area: grid-project;
 }
 
-.grid-experience {
+.grid-experience 
+{
     grid-area: grid-experience;
 }
 
-.grid-skill {
+.grid-skill 
+{
     grid-area: grid-skill;
 }
 
-.grid-email {
+.grid-email 
+{
     grid-area: grid-email;
 }
 
@@ -721,6 +741,43 @@ li{
     justify-content: space-between;
 }
 
+.grid-about:hover 
+{
+    background-color: #1d1d1d;
+}
+
+.grid-about:hover .grid-about-arrow i
+{
+    color: var(--main-background);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+
+.grid-sec-head-about
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grid-about-arrow i
+{
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    padding: 10px 13px;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+/* .grid-about-arrow i:hover
+{
+    color: var(--main-background);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+} */
+
 .grid-about-dtl p
 {
     color: var(--content-color);
@@ -729,7 +786,321 @@ li{
     letter-spacing: 0.7px;
 }
 
+.grid-profile-cnt
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.grid-profile-img
+{
+    position: relative;
+}
+
+.grid-profile-img img
+{
+    width: 130px;
+    border-radius: 200px;
+}
   
+.grid-profile-round-text p {
+    width: 170px;
+    height: 170px;
+    color: #7a7a7a;
+    font-family: 'Cg-Regular';
+    margin: 0 auto;
+    border-radius: 50%;
+    animation: spinZ 20s linear infinite;
+    text-align: center;
+    
+    position: absolute;
+    left: -20px;
+    top: -20px;
+
+    span {
+        position: absolute;
+        display: inline-block;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-family: 'Cg-Regular';
+        transition: all .5s cubic-bezier(0, 0, 0, 1);
+    }
+}
+@keyframes spinZ {
+    0% {
+        transform: rotateZ(0deg);
+    }
+
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

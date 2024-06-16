@@ -87,97 +87,14 @@
                 <div class="about-grid-border">
                     <div class="container">
                         <div class="about-grid-content">
-                            <!-- <div class="row">
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="grid-cnt">
-
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-6">
-                                    <div class="grid-cnt">
-                                        
-                                    </div>
-                                </div>
-                                <div class="col-lg-3 col-md-6 col-sm-6">
-                                    <div class="grid-cnt">
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="row">
-                                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                            <div class="grid-cnt">
-                                                
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-6 col-md-6 col-sm-6">
-                                            <div class="grid-cnt">
-        
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-12 col-md-12 col-sm-12">
-                                            <div class="grid-cnt">
-        
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="grid-cnt">
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="grid-cnt">
-
-                                    </div>
-                                </div>
-                                <div class="col-lg-6 col-md-12 col-sm-12">
-                                    <div class="grid-cnt">
-
-                                    </div>
-                                </div>
-                            </div> -->
-                            <!-- <div class="grid-main-container">
-                                <div class="grid-cnt grid-about">
-                                    about
-                                </div>
-                                <div class="grid-cnt grid-profile">
-                                    profile
-                                </div>
-                                <div class="grid-cnt grid-links">
-                                    links
-                                </div>
-                                <div class="grid-cnt grid-linkedin">
-                                    linkedin
-                                </div>
-                                <div class="grid-cnt grid-stack">
-                                    stack
-                                </div>
-                                <div class="grid-cnt grid-project">
-                                    project
-                                </div>
-                                <div class="grid-cnt grid-experience">
-                                    experience
-                                </div>
-                                <div class="grid-cnt grid-skill">
-                                    skill
-                                </div>
-                                <div class="grid-cnt grid-email">
-                                    email
-                                </div>
-                            </div> -->
                             <div class="grid-container">
                                 <div class="grid-cnt grid-about">
                                     <a href="#">
                                         <div class="grid-about-cnt">
-                                            <div class="grid-sec-head">
+                                            <div class="grid-sec-head grid-sec-head-about">
                                                 <h3>About</h3>
                                                 <div class="grid-about-arrow">
+                                                    <i class="fa-regular fa-arrow-up-right"></i>
                                                 </div>
                                             </div>
                                             <div class="grid-about-dtl">
@@ -188,7 +105,12 @@
                                 </div>
                                 <div class="grid-cnt grid-profile">
                                     <div class="grid-profile-cnt">
-                                        
+                                        <div class="grid-profile-img">
+                                            <img src="images/vasu.jpg" alt="">
+                                            <div class="grid-profile-round-text">
+                                                <p>AVAILABLE FOR WORK ✦ AVAILABLE FOR WORK ✦ </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="grid-cnt grid-links">
@@ -260,6 +182,32 @@
                 setTimeout(function () { copySuccess.style.opacity = "0" }, 500);
             }
         </script> -->
+
+        <script>
+            //https://github.com/GeorgeHastings/emblem
+
+var Emblem = {
+  init: function(el, str) {
+    var element = document.querySelector(el);
+    var text = str ? str : element.innerHTML;
+    element.innerHTML = '';
+    for (var i = 0; i < text.length; i++) {
+      var letter = text[i];
+      var span = document.createElement('span');
+      var node = document.createTextNode(letter);
+      var r = (360/text.length)*(i);
+      var x = (Math.PI/text.length).toFixed(0) * (i);
+      var y = (Math.PI/text.length).toFixed(0) * (i);
+      span.appendChild(node);
+      span.style.webkitTransform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
+      span.style.transform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
+      element.appendChild(span);
+    }
+  }
+};
+
+Emblem.init('.grid-profile-round-text p');
+        </script>
 
     </body>
 </html>
