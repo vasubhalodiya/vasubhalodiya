@@ -689,6 +689,8 @@ li{
 .grid-links 
 {
     grid-area: grid-links;
+    background: none;
+    border: none;
 }
 
 .grid-linkedin 
@@ -844,7 +846,12 @@ li{
     }
 }
 
-
+.grid-links-part li h2
+{
+    color: var(--primary-color);
+    font-size: var(--heading-size);
+    font-family: var(--heading);
+}
 
 
 
