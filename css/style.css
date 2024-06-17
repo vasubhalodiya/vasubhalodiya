@@ -931,12 +931,14 @@ li{
 
 .grid-links-follow p
 {
+    width: 90px;
     color: var(--main-background);
     background-color: var(--primary-color);
     padding: 5px 15px;
     font-size: 13px;
     border-radius: 6px;
     transition: all 0.5s ease 0s;
+    text-align: center;
 }
 
 .grid-links-part a:hover .grid-links-follow p
@@ -1249,7 +1251,8 @@ li{
 .grid-exp-company h3
 {
     color: var(--content-color);
-    font-size: 23px;
+    /* color: #bcd9ff; */
+    font-size: 22px;
     font-family: 'Gs-Medium';
     margin-bottom: 7px;
     letter-spacing: 0.8px;
@@ -1281,7 +1284,6 @@ li{
     margin-bottom: 7px;
     letter-spacing: 0.8px;
 }
-
 
 
 
