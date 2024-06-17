@@ -399,6 +399,7 @@ li{
         --main-background: #0b0b0b;
         --card-bg-color: #1C1C1C;
         --other-bg-color: #262626;
+        --grid-bg-color: #161616;
         --messagebox-primary-bg-color: #3a3a3a;
         --messagebox-sedong-bg-color: #026dfd;
 
@@ -670,7 +671,7 @@ li{
 {
     width: 100%;
     height: 300px;
-    background-color: #161616;
+    background-color: var(--grid-bg-color);
     border-radius: 15px;
     border: 1px solid var(--border-color);
 }
@@ -695,7 +696,9 @@ li{
 
 .grid-linkedin 
 {
+    background-color: #007AB6;
     grid-area: grid-linkedin;
+    position: relative;
 }
 
 .grid-stack 
@@ -773,12 +776,12 @@ li{
     transition: all 0.5s ease;
 }
 
-/* .grid-about-arrow i:hover
+.grid-about-arrow i:hover
 {
     color: var(--main-background);
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color);
-} */
+}
 
 .grid-about-dtl p
 {
@@ -787,6 +790,8 @@ li{
     font-family: var(--content);
     letter-spacing: 0.7px;
 }
+
+/* ======================================================== */
 
 .grid-profile-cnt
 {
@@ -846,6 +851,8 @@ li{
     }
 }
 
+/* ======================================================== */
+
 .grid-links-head
 {
     width: 100%;
@@ -873,6 +880,7 @@ li{
 .grid-links-part li
 {
     width: 100%;
+    background-color: var(--grid-bg-color);
     border: 1px solid var(--border-color);
     padding: 12.5px 20px;
     padding-right: 13px;
@@ -922,64 +930,156 @@ li{
     background-color: #cccccc;
 }
 
+/* ======================================================== */
 
+.grid-linkedin-cnt
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
+.grid-linkedin-icon i
+{
+    color: var(--primary-color);
+    font-size: 120px;
+}
 
+.grid-linkedin-arrow i
+{
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid rgba(233, 233, 236, 0.2);
+    padding: 10px 13px;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: all 0.5s ease;
 
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
 
+/* ======================================================== */
 
+.grid-stack-cnt
+{
+    width: 100%;
+}
 
+.grid-stack-cnt
+{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.grid-about-cnt .grid-sec-head
+{
+    width: 100%;
+}
 
+.grid-slider-marquee 
+{
+    width: 250px;
+    margin: 0 auto;
+    grid-column-gap: 15px;
+    /* padding-top: 30px;
+    padding-bottom: 30px; */
+    display: flex;
+    overflow: hidden;
+}
 
+.grid-slider-marquee-head p
+{
+    color: #626262;
+    font-size: 13px;
+}
 
+.grid-slider-marquee img
+{
+    width: 60px;
+    background-color: #242424;
+    padding: 15px;
+    border-radius: 10px;
+    object-fit: contain;
+}
 
+.marquee-content 
+{
+    grid-column-gap: 15px;
+    justify-content: space-around;
+    display: flex;
+    flex: none;
+}
 
+@keyframes scroll 
+{
+    from {
+        transform: translateX(0);
+    }
 
+    to {
+        transform: translateX(calc(-100% - 16px));
+    }
+}
 
+@keyframes reverse-scroll 
+{
+    from {
+        transform: translateX(calc(-100% - 16px));
+    }
 
+    to {
+        transform: translateX(0);
+    }
+}
 
+.slider-scroll-img-reverse
+{
+    animation: reverse-scroll 20s linear infinite;
+}
 
+.slider-scroll-img
+{
+    animation: scroll 20s linear infinite;
+}
 
+.grid-slider-marquee
+{
+    overflow: hidden;
+    padding: 10px 0px;
+    white-space: nowrap;
+    position: relative;
+}
 
+.grid-slider-marquee:before, .grid-slider-marquee:after 
+{
+    position: absolute;
+    top: 0;
+    content: '';
+    width: 50px;
+    height: 100%;
+    z-index: 2;
+}
 
+.grid-slider-marquee:before 
+{
+    left: 0;
+    background: linear-gradient(to left, rgb(22, 22, 22, 0), rgb(22, 22, 22));
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.grid-slider-marquee:after 
+{
+    right: 0;
+    background: linear-gradient(to right, rgb(22, 22, 22, 0), rgb(22, 22, 22));
+}
 
 
 
