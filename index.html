@@ -437,6 +437,34 @@
                                         <div class="grid-sec-head">
                                             <h3>Skills</h3>
                                         </div>
+                                        <div class="grid-skill-slider">
+                                            <div class="skill-slider-arrow">
+                                                <button class="prev-btn">
+                                                    <div class="grid-skill-arrow">
+                                                        <i class="fa-regular fa-chevron-left"></i>
+                                                    </div>
+                                                </button>
+                                                <button class="next-btn">
+                                                    <div class="grid-skill-arrow">
+                                                        <i class="fa-regular fa-chevron-right"></i>
+                                                    </div>
+                                                </button>
+                                            </div>
+                                            <div class="slider skill-slider">
+                                                <div class="skill-slider-cnt">
+                                                    <h4>Web Design</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque iste cumque dignissimos, omnis earum inventore, repudiandae modi asperiores amet dolorem, hic sed. Tempora, ea dolorum nihil quo corrupti odio saepe.</p>
+                                                </div>
+                                                <div class="skill-slider-cnt">
+                                                    <h4>Web Development</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque iste cumque dignissimos, omnis earum inventore, repudiandae modi asperiores amet dolorem, hic sed. Tempora, ea dolorum nihil quo corrupti odio saepe.</p>
+                                                </div>
+                                                <div class="skill-slider-cnt">
+                                                    <h4>UI/UX Design</h4>
+                                                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloremque iste cumque dignissimos, omnis earum inventore, repudiandae modi asperiores amet dolorem, hic sed. Tempora, ea dolorum nihil quo corrupti odio saepe.</p>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="grid-cnt grid-email">
@@ -450,7 +478,14 @@
                 </div>
             </div>
 
-
+            <div class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="footer-head">
+                        <h1>Let's work together</h1></div>
+                    </div>
+                </div>
+            </div>
             
 
 
@@ -479,29 +514,62 @@
         </script> -->
 
         <script>
-            //https://github.com/GeorgeHastings/emblem
+            //Profile round text
 
-var Emblem = {
-  init: function(el, str) {
-    var element = document.querySelector(el);
-    var text = str ? str : element.innerHTML;
-    element.innerHTML = '';
-    for (var i = 0; i < text.length; i++) {
-      var letter = text[i];
-      var span = document.createElement('span');
-      var node = document.createTextNode(letter);
-      var r = (360/text.length)*(i);
-      var x = (Math.PI/text.length).toFixed(0) * (i);
-      var y = (Math.PI/text.length).toFixed(0) * (i);
-      span.appendChild(node);
-      span.style.webkitTransform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
-      span.style.transform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
-      element.appendChild(span);
-    }
-  }
-};
+            var Emblem = {
+                init: function (el, str) {
+                    var element = document.querySelector(el);
+                    var text = str ? str : element.innerHTML;
+                    element.innerHTML = '';
+                    for (var i = 0; i < text.length; i++) {
+                        var letter = text[i];
+                        var span = document.createElement('span');
+                        var node = document.createTextNode(letter);
+                        var r = (360 / text.length) * (i);
+                        var x = (Math.PI / text.length).toFixed(0) * (i);
+                        var y = (Math.PI / text.length).toFixed(0) * (i);
+                        span.appendChild(node);
+                        span.style.webkitTransform = 'rotateZ(' + r + 'deg) translate3d(' + x + 'px,' + y + 'px,0)';
+                        span.style.transform = 'rotateZ(' + r + 'deg) translate3d(' + x + 'px,' + y + 'px,0)';
+                        element.appendChild(span);
+                    }
+                }
+            };
 
-Emblem.init('.grid-profile-round-text p');
+            Emblem.init('.grid-profile-round-text p');
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $(".skill-slider").slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    autoplay: true,
+                    infinite: true,
+                    autoplaySpeed: 50000
+                });
+                $(".prev-btn").click(function () {
+                    $(".skill-slider").slick("slickPrev");
+                });
+    
+                $(".next-btn").click(function () {
+                    $(".skill-slider").slick("slickNext");
+                });
+                $(".prev-btn").addClass("slick-disabled");
+                $(".skill-slider").on("afterChange", function () {
+                    if ($(".slick-prev").hasClass("slick-disabled")) {
+                        $(".prev-btn").addClass("slick-disabled");
+                    } else {
+                        $(".prev-btn").removeClass("slick-disabled");
+                    }
+                    if ($(".slick-next").hasClass("slick-disabled")) {
+                        $(".next-btn").addClass("slick-disabled");
+                    } else {
+                        $(".next-btn").removeClass("slick-disabled");
+                    }
+                });
+            });
         </script>
 
     </body>

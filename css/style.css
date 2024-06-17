@@ -642,6 +642,7 @@ li{
 {
     padding: 100px 0px;
     padding-top: 50px;
+    border-bottom: 1px solid var(--border-color);
 }
 
 .about-grid-border
@@ -652,6 +653,7 @@ li{
 .about-grid-content
 {
     padding: 100px 0px;
+    padding-bottom: 0px;
     max-width: 1200px;
     margin: auto;
 }
@@ -900,6 +902,11 @@ li{
     padding-right: 13px;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.grid-links-part li:hover
+{
+    background-color: var(--grid-hover-color);
 }
 
 .grid-links-part a
@@ -1285,20 +1292,92 @@ li{
     letter-spacing: 0.8px;
 }
 
+/* ====================================================== */
+
+.grid-skill-cnt
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.prev-btn, .next-btn
+{
+    background: none;
+    border: none;
+}
+
+.grid-skill-slider
+{
+    position: relative;
+}
+
+.prev-btn
+{
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    z-index: 99;
+}
+
+.next-btn
+{
+    position: absolute;
+    right: -15px;
+    top: 50%;
+    z-index: 99;
+}
+
+.grid-skill-arrow i
+{
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    padding: 10px 13px;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+.skill-slider
+{
+    width: 470px;
+    height: 100%;
+    margin: auto;
+}
+
+.skill-slider-cnt h4
+{
+    color: #9ad3ff;
+    font-size: 23px;
+    font-family: 'Gs-Medium';
+    margin-bottom: 20px;
+}
+
+.skill-slider-cnt p
+{
+    color: var(--content-color);
+    font-size: 16px;
+    font-family: var(--content);
+    letter-spacing: 0.5px;
+}
+
+/* ============================================================ */
 
 
 
 
 
+/* ============================================================ */
 
-
-
-
-
-
-
-
-
+.footer
+{
+    padding: 70px 0px;
+}
 
 
 
