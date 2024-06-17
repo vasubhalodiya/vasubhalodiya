@@ -357,7 +357,7 @@ abbr[title] {
     text-decoration: none !important;
 }
 body{
-    font-family: 'Poppins-Regular';
+    font-family: 'Gs-Regular';
     /* background-color: #141414; */
     background-color: #0b0b0b;
 }
@@ -399,9 +399,10 @@ li{
         --main-background: #0b0b0b;
         --card-bg-color: #1C1C1C;
         --other-bg-color: #262626;
-        --grid-bg-color: #161616;
+        --grid-bg-color: #131313;
         --messagebox-primary-bg-color: #3a3a3a;
         --messagebox-sedong-bg-color: #026dfd;
+        --grid-hover-color: #181819;
 
     /* Fonts */
     --heading: 'Gs-SemiBold'; 
@@ -413,6 +414,11 @@ li{
     --content-size: 17px;
     --mini-content-size: 14px;
 
+}
+
+::selection {
+    color: var(--main-background);
+    background-color: var(--primary-color);
 }
 
 ::-webkit-scrollbar{width: 3px;}
@@ -706,7 +712,7 @@ li{
     grid-area: grid-stack;
 }
 
-.grid-project 
+.grid-project
 {
     height: 100%;
     grid-area: grid-project;
@@ -735,6 +741,15 @@ li{
     text-transform: uppercase;
 }
 
+.grid-about-cnt,
+.grid-stack-cnt,
+.grid-project-cnt,
+.grid-experience-cnt,
+.grid-skill-cnt
+{
+    padding: 20px;
+}
+
 .grid-about-cnt
 {
     width: 100%;
@@ -742,13 +757,12 @@ li{
     display: flex;
     flex-direction: column;
     align-items: left;
-    padding: 20px;
     justify-content: space-between;
 }
 
 .grid-about:hover 
 {
-    background-color: #1d1d1d;
+    background-color: var(--grid-hover-color);
 }
 
 .grid-about:hover .grid-about-arrow i
@@ -974,7 +988,6 @@ li{
 {
     width: 100%;
     height: 100%;
-    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1081,26 +1094,193 @@ li{
     background: linear-gradient(to right, rgb(22, 22, 22, 0), rgb(22, 22, 22));
 }
 
+/* =========================================== */
 
+.grid-project-details
+{
+    margin-top: 40px;
+}
 
+.grid-project-card a
+{
+    color: var(--primary-color);
+    background-color: #171717;
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+}
 
+.grid-project-card a:hover
+{
+    background-color: #1C1C1C;
+}
 
+.grid-project-card-simple
+{
+    width: 100%;
+    background-color: #171717;
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
 
+.grid-project-txt-sec
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
 
+.grid-project-card a:hover .grid-project-img img
+{
+    transform: scale(1.07);
+} 
 
+.grid-project-card-simple:hover
+{
+    background-color: #1C1C1C;
+}
 
+.grid-project-card-simple:hover .grid-project-arrow i
+{
+    color: var(--main-background);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}   
 
+.grid-project-flex-txt
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
 
+.grid-project-txt-icon img
+{
+    width: 40px;
+    margin-bottom: 17px;
+}
 
+.grid-project-txt-name h5
+{
+    color: #cccccc;
+    font-size: 19px;
+    font-family: 'Gs-SemiBold';
+    margin-bottom: 5px;
+}
 
+.grid-project-txt-link p
+{
+    color: #626262;
+    font-size: 15px;
+    font-family: var(--content);
+    /* margin-bottom: 20px; */
+}
 
+.grid-project-img
+{
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 10px;
+}
 
+.grid-project-img img
+{
+    width: 100%;
+    transition: transform 0.5s;
+}
 
+.grid-project-no-margin img, h5, p
+{
+    margin: 0;
+    padding: 0;
+}
 
+.grid-project-arrow i
+{
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    padding: 10px 12px;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
 
+.grid-project-card-no-margin
+{
+    margin-bottom: 0;
+}
 
+/* =================================================== */
 
+.grid-exp-details
+{
+    margin-top: 40px;
+}
+
+.grid-exp-card
+{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 15px;
+}
+
+.no-border
+{
+    border: none;
+}
+
+.grid-exp-company h3
+{
+    color: var(--content-color);
+    font-size: 23px;
+    font-family: 'Gs-Medium';
+    margin-bottom: 7px;
+    letter-spacing: 0.8px;
+}
+
+.grid-exp-company h5
+{
+    color: #626262;
+    font-size: 17px;
+    font-family: var(--content);
+    margin-bottom: 7px;
+    letter-spacing: 0.8px;
+}
+
+.grid-exp-company h5 span
+{
+    color: #626262;
+    font-size: 13px;
+    font-family: var(--content);
+    margin-bottom: 7px;
+    letter-spacing: 0.8px;
+}
+
+.grid-exp-time p
+{
+    color: #626262;
+    font-size: 13px;
+    font-family: var(--content);
+    margin-bottom: 7px;
+    letter-spacing: 0.8px;
+}
 
 
 
