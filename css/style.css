@@ -221,37 +221,37 @@
 
 /* ********************* */
 
-/* @font-face {
+@font-face {
     font-family: 'Gs-Bold';
-    src: url(../css/fonts/General-sans/GeneralSans-Bold.otf);
+    src: url(css/fonts/General-sans/GeneralSans-Bold.otf);
 }
 
 @font-face {
     font-family: 'Gs-ExtraLight';
-    src: url(../css/fonts/General-sans/GeneralSans-Extralight.otf);
+    src: url(css/fonts/General-sans/GeneralSans-Extralight.otf);
 }
 
 @font-face {
     font-family: 'Gs-Light';
-    src: url(../css/fonts/General-sans/GeneralSans-Light.otf);
+    src: url(css/fonts/General-sans/GeneralSans-Light.otf);
 }
 
 @font-face {
     font-family: 'Gs-Medium';
-    src: url(../css/fonts/General-sans/GeneralSans-Medium.otf);
+    src: url(css/fonts/General-sans/GeneralSans-Medium.otf);
 }
 
 @font-face {
     font-family: 'Gs-Regular';
-    src: url(../css/fonts/General-sans/GeneralSans-Regular.otf);
+    src: url(css/fonts/General-sans/GeneralSans-Regular.otf);
 }
 
 @font-face {
     font-family: 'Gs-SemiBold';
-    src: url(../css/fonts/General-sans/GeneralSans-Semibold.otf);
-} */
+    src: url(css/fonts/General-sans/GeneralSans-Semibold.otf);
+}
 
-@font-face {
+/* @font-face {
     font-family: 'Gs-Extralight';
     src: url('css/fonts/General-sans/GeneralSans-Extralight.woff2') format('woff2'),
         url('css/fonts/General-sans/GeneralSans-Extralight.woff') format('woff'),
@@ -309,7 +309,7 @@
     font-weight: 700;
     font-display: swap;
     font-style: normal;
-}
+} */
 
 /* ************** */
 
