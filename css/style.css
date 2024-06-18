@@ -296,9 +296,9 @@
 
 @font-face {
     font-family: 'Gs-Extralight';
-    src: url('../css/fonts/GeneralSans-Extralight.woff2') format('woff2'),
-        url('../css/fonts/GeneralSans-Extralight.woff') format('woff'),
-        url('../css/fonts/GeneralSans-Extralight.ttf') format('truetype');
+    src: url('../css/fonts/General-sans/GeneralSans-Extralight.woff2') format('woff2'),
+        url('../css/fonts/General-sans/GeneralSans-Extralight.woff') format('woff'),
+        url('../css/fonts/General-sans/GeneralSans-Extralight.ttf') format('truetype');
     font-weight: 200;
     font-display: swap;
     font-style: normal;
@@ -306,9 +306,9 @@
 
 @font-face {
     font-family: 'Gs-Light';
-    src: url('../css/fonts/GeneralSans-Light.woff2') format('woff2'),
-        url('../css/fonts/GeneralSans-Light.woff') format('woff'),
-        url('../css/fonts/GeneralSans-Light.ttf') format('truetype');
+    src: url('../css/fonts/General-sans/GeneralSans-Light.woff2') format('woff2'),
+        url('../css/fonts/General-sans/GeneralSans-Light.woff') format('woff'),
+        url('../css/fonts/General-sans/GeneralSans-Light.ttf') format('truetype');
     font-weight: 300;
     font-display: swap;
     font-style: normal;
@@ -316,9 +316,9 @@
 
 @font-face {
     font-family: 'Gs-Regular';
-    src: url('../css/fonts/GeneralSans-Regular.woff2') format('woff2'),
-        url('../css/fonts/GeneralSans-Regular.woff') format('woff'),
-        url('../css/fonts/GeneralSans-Regular.ttf') format('truetype');
+    src: url('../css/fonts/General-sans/GeneralSans-Regular.woff2') format('woff2'),
+        url('../css/fonts/General-sans/GeneralSans-Regular.woff') format('woff'),
+        url('../css/fonts/General-sans/GeneralSans-Regular.ttf') format('truetype');
     font-weight: 400;
     font-display: swap;
     font-style: normal;
@@ -326,9 +326,9 @@
 
 @font-face {
     font-family: 'Gs-Medium';
-    src: url('../css/fonts/GeneralSans-Medium.woff2') format('woff2'),
-        url('../css/fonts/GeneralSans-Medium.woff') format('woff'),
-        url('../css/fonts/GeneralSans-Medium.ttf') format('truetype');
+    src: url('../css/fonts/General-sans/GeneralSans-Medium.woff2') format('woff2'),
+        url('../css/fonts/General-sans/GeneralSans-Medium.woff') format('woff'),
+        url('../css/fonts/General-sans/GeneralSans-Medium.ttf') format('truetype');
     font-weight: 500;
     font-display: swap;
     font-style: normal;
@@ -336,9 +336,9 @@
 
 @font-face {
     font-family: 'Gs-Semibold';
-    src: url('../css/fonts/GeneralSans-Semibold.woff2') format('woff2'),
-        url('../css/fonts/GeneralSans-Semibold.woff') format('woff'),
-        url('../css/fonts/GeneralSans-Semibold.ttf') format('truetype');
+    src: url('../css/fonts/General-sans/GeneralSans-Semibold.woff2') format('woff2'),
+        url('../css/fonts/General-sans/GeneralSans-Semibold.woff') format('woff'),
+        url('../css/fonts/General-sans/GeneralSans-Semibold.ttf') format('truetype');
     font-weight: 600;
     font-display: swap;
     font-style: normal;
@@ -346,9 +346,9 @@
 
 @font-face {
     font-family: 'Gs-Bold';
-    src: url('../css/fonts/GeneralSans-Bold.woff2') format('woff2'),
-        url('../css/fonts/GeneralSans-Bold.woff') format('woff'),
-        url('../css/fonts/GeneralSans-Bold.ttf') format('truetype');
+    src: url('../css/fonts/General-sans/GeneralSans-Bold.woff2') format('woff2'),
+        url('../css/fonts/General-sans/GeneralSans-Bold.woff') format('woff'),
+        url('../css/fonts/General-sans/GeneralSans-Bold.ttf') format('truetype');
     font-weight: 700;
     font-display: swap;
     font-style: normal;
