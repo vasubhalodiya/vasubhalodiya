@@ -356,6 +356,9 @@ abbr[title] {
     cursor: inherit !important;
     text-decoration: none !important;
 }
+html {
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Gs-Regular';
     /* background-color: #141414; */
@@ -394,6 +397,7 @@ li{
         --content-color: #a6a6a6;
         --other-color: #3c3c3c;
         --border-color: #252525;
+        --mini-txt-color: #626262;
 
         /* Background Colors */
         --main-background: #0b0b0b;
@@ -423,7 +427,7 @@ li{
 
 ::-webkit-scrollbar{width: 3px;}
 ::-webkit-scrollbar-track{background: #383838;}
-::-webkit-scrollbar-thumb{background: #626262;border-radius: 10px;}
+::-webkit-scrollbar-thumb{background: var(--mini-txt-color);border-radius: 10px;}
 ::-webkit-scrollbar-thumb:hover{background: #818181;border-radius: 10px;}
 
 /* ******************************************************************************************** */
@@ -1020,7 +1024,7 @@ li{
 
 .grid-slider-marquee-head p
 {
-    color: #626262;
+    color: var(--mini-txt-color);
     font-size: 13px;
 }
 
@@ -1190,7 +1194,7 @@ li{
 
 .grid-project-txt-link p
 {
-    color: #626262;
+    color: var(--mini-txt-color);
     font-size: 15px;
     font-family: var(--content);
     /* margin-bottom: 20px; */
@@ -1267,7 +1271,7 @@ li{
 
 .grid-exp-company h5
 {
-    color: #626262;
+    color: var(--mini-txt-color);
     font-size: 17px;
     font-family: var(--content);
     margin-bottom: 7px;
@@ -1276,7 +1280,7 @@ li{
 
 .grid-exp-company h5 span
 {
-    color: #626262;
+    color: var(--mini-txt-color);
     font-size: 13px;
     font-family: var(--content);
     margin-bottom: 7px;
@@ -1285,7 +1289,7 @@ li{
 
 .grid-exp-time p
 {
-    color: #626262;
+    color: var(--mini-txt-color);
     font-size: 13px;
     font-family: var(--content);
     margin-bottom: 7px;
@@ -1379,12 +1383,56 @@ li{
     padding: 70px 0px;
 }
 
+.footer-head
+{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 80px;
+}
 
+.footer-head h1
+{
+    font-family: 'Gs-Bold';
+    font-size: 80px;
+    background: linear-gradient(to bottom, #242424, #e9e9e9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
+.footer-contact-btn
+{
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.footer-contact-btn a
+{
+    color: var(--main-background);
+    background-color: var(--primary-color);
+    font-size: var(--content-size);
+    font-family: 'Gs-Medium';
+    padding: 15px 30px;
+    border-radius: 50px;
+    letter-spacing: 0.6px;
+}
 
+.footer-contact-reply
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
+.footer-contact-reply p
+{
+    color: var(--mini-txt-color);
+    font-size: 15px;
+    font-family: var(--content);
+    letter-spacing: 0.6px;
+}
 
 
 
