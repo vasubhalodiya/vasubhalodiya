@@ -507,6 +507,37 @@ li{
     transition: .4s opacity;
 } */
 
+.grid-sec-head h3
+{
+    color: var(--primary-color);
+    font-size: var(--heading-size);
+    font-family: var(--heading);
+    text-transform: uppercase;
+}
+
+.grid-sec-arrow i
+{
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid rgba(233, 233, 236, 0.2);
+    padding: 10px 13px;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+.grid-small-arrow i
+{
+    color: var(--primary-color);
+    background-color: transparent;
+    border: 1px solid rgba(233, 233, 236, 0.2);
+    padding: 10px 11px;
+    border-radius: 50px;
+    font-size: 14px;
+    transition: all 0.5s ease;
+}
+
+
 /* **************************************************************************************** */
 .home
 {
@@ -759,14 +790,6 @@ li{
     grid-area: grid-email;
 }
 
-.grid-sec-head h3
-{
-    color: var(--primary-color);
-    font-size: var(--heading-size);
-    font-family: var(--heading);
-    text-transform: uppercase;
-}
-
 .grid-about-cnt,
 .grid-stack-cnt,
 .grid-project-cnt,
@@ -805,7 +828,7 @@ li{
     justify-content: space-between;
 }
 
-.grid-about-arrow i
+/* .grid-about-arrow i
 {
     color: var(--primary-color);
     background-color: transparent;
@@ -814,7 +837,7 @@ li{
     border-radius: 50px;
     font-size: 18px;
     transition: all 0.5s ease;
-}
+} */
 
 .grid-about-arrow i:hover
 {
@@ -967,7 +990,7 @@ li{
     background-color: var(--primary-color);
     padding: 5px 15px;
     font-size: 13px;
-    border-radius: 6px;
+    border-radius: 50px;
     transition: all 0.5s ease 0s;
     text-align: center;
 }
@@ -997,13 +1020,13 @@ li{
 
 .grid-linkedin-arrow i
 {
-    color: var(--primary-color);
+    /* color: var(--primary-color);
     background-color: transparent;
     border: 1px solid rgba(233, 233, 236, 0.2);
     padding: 10px 13px;
     border-radius: 50px;
     font-size: 18px;
-    transition: all 0.5s ease;
+    transition: all 0.5s ease; */
 
     position: absolute;
     bottom: 15px;
@@ -1117,14 +1140,15 @@ li{
 
 .grid-slider-marquee:before 
 {
+    color: rgb(19, 19, 19);
     left: 0;
-    background: linear-gradient(to left, rgb(22, 22, 22, 0), rgb(22, 22, 22));
+    background: linear-gradient(to left, rgb(19, 19, 19, 0), rgb(19, 19, 19));
 }
 
 .grid-slider-marquee:after 
 {
     right: 0;
-    background: linear-gradient(to right, rgb(22, 22, 22, 0), rgb(22, 22, 22));
+    background: linear-gradient(to right, rgb(19, 19, 19, 0), rgb(19, 19, 19));
 }
 
 /* =========================================== */
@@ -1241,7 +1265,7 @@ li{
     padding: 0;
 }
 
-.grid-project-arrow i
+/* .grid-project-arrow i
 {
     color: var(--primary-color);
     background-color: transparent;
@@ -1250,7 +1274,7 @@ li{
     border-radius: 50px;
     font-size: 14px;
     transition: all 0.5s ease;
-}
+} */
 
 .grid-project-card-no-margin
 {
@@ -1369,7 +1393,7 @@ li{
 
 .skill-slider
 {
-    width: 470px;
+    width: 85%;
     height: 100%;
     margin: auto;
 }
@@ -1473,7 +1497,7 @@ li{
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 70px;
 }
 
 .footer-head h1
