@@ -979,6 +979,15 @@ li{
     border-radius: 50px;
 }
 
+.grid-link-devide
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
 .grid-links-head
 {
     width: 100%;
