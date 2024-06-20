@@ -916,6 +916,69 @@ li{
 
 /* ======================================================== */
 
+.grid-link-mobile
+{
+    width: 100%;
+    height: 90px;
+    display: none;
+}
+
+.grid-link-mobile-flex
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.grid-links-icon-mobile
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 30px;
+}
+
+.grid-links-icon-mobile i
+{
+    color: var(--content-color);
+    font-size: 25px;
+}
+
+.grid-links-icon-mobile p
+{
+    color: var(--content-color);
+    font-size: 15px;
+    font-family: 'Gs-Regular';
+    letter-spacing: 0.7px;
+}
+
+.grid-link-id
+{
+    width: 100%;
+}
+
+.grid-link-id h6
+{
+    color: var(--primary-color);
+    font-size: var(--content-size);
+    font-family: var(--content);
+}
+
+.grid-link-id p
+{
+    color: var(--main-background);
+    background-color: var(--primary-color);
+    font-size: var(--content-size);
+    font-family: var(--content);
+    padding: 7px 15px;
+    text-align: center;
+    border-radius: 50px;
+}
+
 .grid-links-head
 {
     width: 100%;
@@ -956,7 +1019,7 @@ li{
     background-color: var(--grid-hover-color);
 }
 
-.grid-links-part a
+.grid-links-part a .grid-link-desktop
 {
     display: flex;
     align-items: center;
