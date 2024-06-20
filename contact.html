@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Vasu Bhalodiya</title>
+        <link rel="shortcut icon" href="images/my-icon.jpg" type="image/x-icon">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/fontawesome-all.css" >
+        <link rel="stylesheet" href="css/searchboxstyle.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css" >
+        <link rel="stylesheet" href="css/responsive.css" >
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6880c7d510.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" data-purpose="Layout StyleSheet" title="Web Awesome"
+        href="/css/app-wa-fba26eda6a3fd6b4d0ce0def1e2ba1d7.css?vsn=d">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-thin.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/sharp-light.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    </head>
+<!-- ******************************************************************************************** -->
+    <body>
+        <!-- <div class="clipboard">
+            <input onclick="copy()" class="copy-input" value="hello@vasubhalodiya.dev" id="copyClipboard" readonly>
+            <button class="copy-btn" id="copyButton" onclick="copy()"><i class="far fa-copy"></i></button>
+        </div>
+        <div id="copied-success" class="copied">
+            <span>Copied!</span>
+        </div> -->
+        <div class="main" id="main-site">
+            
+
+
+
+
+
+        </div>
+<!-- ******************************************************************************************** -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/script.js"></script>
+
+        <!-- <script>
+            function copy() {
+                let copyText = document.getElementById("copyClipboard");
+                let copySuccess = document.getElementById("copied-success");
+                // copyText.select();
+                // copyText.setSelectionRange(0, 99999);
+                navigator.clipboard.writeText(copyText.value);
+
+                copySuccess.style.opacity = "1";
+                setTimeout(function () { copySuccess.style.opacity = "0" }, 500);
+            }
+        </script> -->
+
+        <script>
+            //Profile round text
+
+            var Emblem = {
+                init: function (el, str) {
+                    var element = document.querySelector(el);
+                    var text = str ? str : element.innerHTML;
+                    element.innerHTML = '';
+                    for (var i = 0; i < text.length; i++) {
+                        var letter = text[i];
+                        var span = document.createElement('span');
+                        var node = document.createTextNode(letter);
+                        var r = (360 / text.length) * (i);
+                        var x = (Math.PI / text.length).toFixed(0) * (i);
+                        var y = (Math.PI / text.length).toFixed(0) * (i);
+                        span.appendChild(node);
+                        span.style.webkitTransform = 'rotateZ(' + r + 'deg) translate3d(' + x + 'px,' + y + 'px,0)';
+                        span.style.transform = 'rotateZ(' + r + 'deg) translate3d(' + x + 'px,' + y + 'px,0)';
+                        element.appendChild(span);
+                    }
+                }
+            };
+
+            Emblem.init('.grid-profile-round-text p');
+        </script>
+
+        <script>
+            $(document).ready(function () {
+                $(".skill-slider").slick({
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    arrows: false,
+                    autoplay: true,
+                    infinite: true,
+                    autoplaySpeed: 50000
+                });
+                $(".prev-btn").click(function () {
+                    $(".skill-slider").slick("slickPrev");
+                });
+    
+                $(".next-btn").click(function () {
+                    $(".skill-slider").slick("slickNext");
+                });
+                $(".prev-btn").addClass("slick-disabled");
+                $(".skill-slider").on("afterChange", function () {
+                    if ($(".slick-prev").hasClass("slick-disabled")) {
+                        $(".prev-btn").addClass("slick-disabled");
+                    } else {
+                        $(".prev-btn").removeClass("slick-disabled");
+                    }
+                    if ($(".slick-next").hasClass("slick-disabled")) {
+                        $(".next-btn").addClass("slick-disabled");
+                    } else {
+                        $(".next-btn").removeClass("slick-disabled");
+                    }
+                });
+                $(".prev-head-btn").click(function () {
+                    $(".skill-slider").slick("slickPrev");
+                });
+    
+                $(".next-head-btn").click(function () {
+                    $(".skill-slider").slick("slickNext");
+                });
+                $(".prev-head-btn").addClass("slick-disabled");
+                $(".skill-slider").on("afterChange", function () {
+                    if ($(".slick-prev").hasClass("slick-disabled")) {
+                        $(".prev-head-btn").addClass("slick-disabled");
+                    } else {
+                        $(".prev-head-btn").removeClass("slick-disabled");
+                    }
+                    if ($(".slick-next").hasClass("slick-disabled")) {
+                        $(".next-head-btn").addClass("slick-disabled");
+                    } else {
+                        $(".next-head-btn").removeClass("slick-disabled");
+                    }
+                });
+            });
+        </script>
+
+    </body>
+</html>
