@@ -16,7 +16,6 @@
     .grid-links-part li{margin-top: 0px;padding: 20px;}
     .grid-link-devide{width: 100%;display: flex;align-items: center;justify-content: space-between;gap: 15px;}
     .about-grid{width: 100%;height: 2260px;}
-    .about-grid-content{max-width: 900px;}
     .grid-container{
         width: 100%;
         height: 300px;
@@ -35,9 +34,11 @@
             "grid-links grid-links grid-links"; }
     .grid-cnt{height: 300px;}
     .grid-project{height: 100%;}
+    .about-grid-content{max-width: 900px;}
 
+/* ============================================== */
 
-
+    .project-grid-content{max-width: 900px;}
 
 
 
@@ -60,7 +61,6 @@
     .grid-links-part li{margin-top: 0px;padding: 20px;}
     .grid-link-devide{width: 100%;display: flex;align-items: center;justify-content: space-between;gap: 15px;}
     .about-grid{width: 100%;height: 2260px;}
-    .about-grid-content{max-width: 900px;}
     .grid-container{
         width: 100%;
         height: 300px;
@@ -79,7 +79,11 @@
             "grid-links grid-links grid-links"; }
     .grid-cnt{height: 300px;}
     .grid-project{height: 100%;}
+    .about-grid-content{max-width: 900px;}
 
+/* ============================================== */
+
+    .project-grid-content{max-width: 900px;}
 
 
 
@@ -121,7 +125,6 @@
     .grid-links-part li{margin-top: 0px;padding: 20px;}
     .grid-link-devide{width: 100%;display: flex;align-items: center;justify-content: space-between;gap: 15px;}
     .about-grid{width: 100%;height: 3000px;padding: 0; padding-top: 40px;}
-	.about-grid-content{max-width: 600px;}
     .grid-container{
         width: 100%;
         height: 300px;
@@ -142,6 +145,12 @@
             "grid-links grid-links"; }
     .grid-cnt{height: 300px;}
     .grid-project{height: 100%;}
+    .about-grid-content{max-width: 600px;}
+
+/* ============================================== */
+
+    .project-grid-content{max-width: 600px;}
+    
 
 
 
@@ -213,7 +222,6 @@
     .grid-links-part li{margin-top: 0px;padding: 20px;}
     .grid-link-devide{width: 100%;display: flex;align-items: center;justify-content: space-between;gap: 15px;}
     .about-grid{width: 100%;height: 2570px;padding: 0; padding-top: 40px;}
-	.about-grid-content{max-width: 500px;}
     .grid-container{
         width: 100%;
         height: 300px;
@@ -235,8 +243,12 @@
     .grid-cnt{height: 250px;}
     .grid-profile, .grid-linkedin{height: 245px;}
     .grid-project{height: 100%;}
+	.about-grid-content{max-width: 500px;}
 
+/* ============================================== */
 
+    .project-grid-content{max-width: 500px;}
+    
 
 
 
@@ -288,7 +300,6 @@
     .skill-slider-head-arrow button{padding: 0px 4px;}
     .copy-input{width: 250px;padding: 12px 0px;}
     .about-grid{width: 100%;height: 2620px;padding-top: 30px;}
-    .about-grid-content{max-width: 420px;padding: 60px 0px;}
     .grid-container{
         width: 100%;
         height: 300px;
@@ -310,8 +321,12 @@
     .grid-cnt{height: 250px;}
     .grid-profile, .grid-linkedin{height: 202px;}
     .grid-project{height: 100%;}
+    .about-grid-content{max-width: 420px;padding: 60px 0px;}
 
+/* ============================================== */
 
+    .project-grid-content{max-width: 420px;padding: 60px 0px;}
+    
 
 
 
@@ -419,5 +434,5 @@
 
 
 
-    
+
 }

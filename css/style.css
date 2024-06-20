@@ -1658,6 +1658,14 @@ li{
         "project-experience project-experience project-stack project-stack";
 }
 
+.project-grid-content
+{
+    padding: 100px 0px;
+    padding-bottom: 0px;
+    max-width: 1200px;
+    margin: auto;
+}
+
 .project-about 
 {
     height: 100%;
