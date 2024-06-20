@@ -1689,6 +1689,7 @@ li{
     border-radius: 50px;
     text-align: center;
     margin: auto;
+    opacity: 0;
 
     position: fixed;
     bottom: 10px;
