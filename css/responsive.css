@@ -35,6 +35,17 @@
             "grid-links grid-links grid-links"; }
     .grid-cnt{height: 300px;}
     .grid-project{height: 100%;}
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* ********************************************************************************************************* */
@@ -68,6 +79,21 @@
             "grid-links grid-links grid-links"; }
     .grid-cnt{height: 300px;}
     .grid-project{height: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
@@ -116,6 +142,20 @@
             "grid-links grid-links"; }
     .grid-cnt{height: 300px;}
     .grid-project{height: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 }
 
@@ -195,6 +235,25 @@
     .grid-cnt{height: 250px;}
     .grid-profile, .grid-linkedin{height: 245px;}
     .grid-project{height: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
   
 }
 
@@ -251,6 +310,29 @@
     .grid-cnt{height: 250px;}
     .grid-profile, .grid-linkedin{height: 202px;}
     .grid-project{height: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 }
 
@@ -283,6 +365,21 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     
 }
 
@@ -292,6 +389,15 @@
 {
     .about-grid{width: 100%;height: 2720px;padding-top: 30px;}
     
+
+
+
+
+
+
+
+
+
 }
 
 /* ********************************************************************************************************* */
@@ -304,4 +410,14 @@
     .grid-links-part ul .grid-link-desktop{display: none;}
     .grid-link-mobile{display: block;}
     .grid-link-devide{display: flex;flex-direction: column;}
+
+
+
+
+
+
+
+
+
+    
 }
