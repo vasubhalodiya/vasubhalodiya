@@ -224,7 +224,7 @@
     .footer-head h1{font-size: 50px;text-align: center;}
     .grid-project-txt-link p{display: none;}
     .skill-slider-head-arrow button{padding: 0px 4px;}
-    .grid-slider-software, .grid-slider-technology{display: block;}
+    /* .grid-slider-software, .grid-slider-technology{display: block;} */
 
 
 
@@ -274,20 +274,22 @@
     .grid-email-head p{font-size: 11px;letter-spacing: 0.3px;}
     .grid-email{height: 240px;}
     .about-grid{width: 100%;height: 2750px;padding-top: 30px;}
-    .grid-links-head li h2{display: none;}
-    .grid-links-part ul{width: 100%; height: 100%; display: flex;flex-wrap: wrap;flex-direction: row;gap: 15px;}
-    .grid-links-part ul .grid-link-desktop{display: none;}
-    .grid-link-mobile{display: block;}
-    .grid-links-part li{margin-top: 0px;padding: 20px;}
-    .grid-link-devide{display: flex;flex-direction: column;}
+    .grid-link-id h6{font-size: 15px;}
+    .grid-links-part li{margin-top: 0px;padding: 14px;}
 }
 
 @media screen and (max-width:375px)
 {
     .about-grid{width: 100%;height: 2720px;padding-top: 30px;}
+    
 }
 
 @media screen and (max-width:325px)
 {
     .about-grid{width: 100%;height: 2970px;padding-top: 30px;}
+    .grid-links-head li h2{display: none;}
+    .grid-links-part ul{width: 100%; height: 100%; display: flex;flex-wrap: wrap;flex-direction: row;gap: 15px;}
+    .grid-links-part ul .grid-link-desktop{display: none;}
+    .grid-link-mobile{display: block;}
+    .grid-link-devide{display: flex;flex-direction: column;}
 }
