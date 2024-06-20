@@ -15,7 +15,6 @@
     .grid-link-mobile{display: block;}
     .grid-links-part li{margin-top: 0px;padding: 20px;}
     .grid-link-devide{width: 100%;display: flex;align-items: center;justify-content: space-between;gap: 15px;}
-
     .about-grid{width: 100%;height: 2260px;}
     .about-grid-content{max-width: 900px;}
     .grid-container{
@@ -38,6 +37,7 @@
     .grid-project{height: 100%;}
 }
 
+/* ********************************************************************************************************* */
 
 @media screen and (min-width:992px) and (max-width:1024px)
 {
@@ -48,7 +48,6 @@
     .grid-link-mobile{display: block;}
     .grid-links-part li{margin-top: 0px;padding: 20px;}
     .grid-link-devide{width: 100%;display: flex;align-items: center;justify-content: space-between;gap: 15px;}
-
     .about-grid{width: 100%;height: 2260px;}
     .about-grid-content{max-width: 900px;}
     .grid-container{
@@ -72,6 +71,7 @@
 
 }
 
+/* ********************************************************************************************************* */
 
 @media screen and (min-width:768px) and (max-width:991px)
 {
@@ -94,8 +94,6 @@
     .grid-link-mobile{display: block;}
     .grid-links-part li{margin-top: 0px;padding: 20px;}
     .grid-link-devide{width: 100%;display: flex;align-items: center;justify-content: space-between;gap: 15px;}
-
-
     .about-grid{width: 100%;height: 3000px;padding: 0; padding-top: 40px;}
 	.about-grid-content{max-width: 600px;}
     .grid-container{
@@ -121,6 +119,7 @@
 	
 }
 
+/* ********************************************************************************************************* */
 
 @media (max-width: 767px)
 {
@@ -173,8 +172,6 @@
     .grid-link-mobile{display: block;}
     .grid-links-part li{margin-top: 0px;padding: 20px;}
     .grid-link-devide{width: 100%;display: flex;align-items: center;justify-content: space-between;gap: 15px;}
-    
-
     .about-grid{width: 100%;height: 2570px;padding: 0; padding-top: 40px;}
 	.about-grid-content{max-width: 500px;}
     .grid-container{
@@ -201,6 +198,7 @@
   
 }
 
+/* ********************************************************************************************************* */
 
 @media screen and (max-width:575px)
 {
@@ -230,9 +228,6 @@
     .grid-project-txt-link p{display: none;}
     .skill-slider-head-arrow button{padding: 0px 4px;}
     .copy-input{width: 250px;padding: 12px 0px;}
-
-
-
     .about-grid{width: 100%;height: 2620px;padding-top: 30px;}
     .about-grid-content{max-width: 420px;padding: 60px 0px;}
     .grid-container{
@@ -259,6 +254,7 @@
 	
 }
 
+/* ********************************************************************************************************* */
 
 @media screen and (max-width:480px)
 {
@@ -290,11 +286,15 @@
     
 }
 
+/* ********************************************************************************************************* */
+
 @media screen and (max-width:375px)
 {
     .about-grid{width: 100%;height: 2720px;padding-top: 30px;}
     
 }
+
+/* ********************************************************************************************************* */
 
 @media screen and (max-width:325px)
 {
