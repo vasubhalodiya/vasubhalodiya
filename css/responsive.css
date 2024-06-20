@@ -172,6 +172,7 @@
     .grid-cnt{height: 250px;}
     .grid-profile, .grid-linkedin{height: 245px;}
     .grid-project{height: 100%;}
+    .mobile-view{display: none;}
   
 }
 
