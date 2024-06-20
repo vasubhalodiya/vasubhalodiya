@@ -1653,17 +1653,48 @@ li{
     letter-spacing: 0.7px;    
 }
 
+.clipboard 
+{
+    position: relative;
+}
 
+.copy-input 
+{
+    width: 280px;
+    color: var(--main-background);
+    background-color: var(--primary-color);
+    font-size: var(--content-size);
+    font-family: 'Gs-Medium';
+    padding: 15px 0px;
+    border-radius: 50px;
+    letter-spacing: 0.6px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
 
+.copy-input:focus 
+{
+    outline: none;
+}
 
+.copied 
+{
+    width: 100px;
+    color: var(--main-background);
+    background-color: var(--primary-color);
+    font-size: var(--content-size);
+    font-family: 'Gs-Medium';
+    padding: 10px 0px;
+    border-radius: 50px;
+    text-align: center;
+    margin: auto;
 
-
-
-
-
-
-
-
+    position: fixed;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+}
 
 
 

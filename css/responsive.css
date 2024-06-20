@@ -85,7 +85,8 @@
     .grid-slider-marquee{width: 85%;}
     .footer-head h1{font-size: 65px;}
     .footer{padding: 60px 0px;padding-bottom: 20px;}
-    .footer-contact-btn a{font-size: 15px; padding: 12px 28px;}
+    /* .footer-contact-btn a{font-size: 15px; padding: 12px 28px;} */
+    .copy-input{width: 260px; font-size: 16px;}
     .footer-contact-reply p{font-size: 13px;}
     .grid-links-head li h2{display: none;}
     .grid-links-part ul{width: 100%; height: 100%; display: flex;flex-wrap: wrap;flex-direction: row;gap: 15px;}
@@ -132,7 +133,8 @@
     .grid-slider-software, .grid-slider-technology{display: flex;align-items: center;justify-content: space-between;gap: 10px;}
     .grid-slider-marquee{width: 85%;}
     .footer{padding: 50px 0px;padding-bottom: 20px;}
-    .footer-contact-btn a{font-size: 14px; padding: 11px 25px;}
+    /* .footer-contact-btn a{font-size: 14px; padding: 11px 25px;} */
+    .copy-input{width: 250px; font-size: 15px;}
     .footer-contact-reply p{font-size: 12px;}
     .footer-head{margin-bottom: 130px;}
     .footer-head h1{font-size: 55px;}
@@ -227,7 +229,7 @@
     .footer-head h1{font-size: 55px;text-align: center;}
     .grid-project-txt-link p{display: none;}
     .skill-slider-head-arrow button{padding: 0px 4px;}
-
+    .copy-input{width: 250px;padding: 12px 0px;}
 
 
 
@@ -280,6 +282,12 @@
     .grid-links-part li{margin-top: 0px;padding: 14px;}
     .footer-head h1{font-size: 50px;text-align: center;}
     .grid-slider-software, .grid-slider-technology{flex-wrap: wrap;}
+    .copy-input{width: 240px;padding: 12px 0px;}
+
+
+
+
+    
 }
 
 @media screen and (max-width:375px)

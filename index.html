@@ -567,7 +567,13 @@
                                 <h1>Let's work together</h1>
                             </div>
                             <div class="footer-contact-btn">
-                                <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">hello@vasubhalodiya.dev</a>
+                                <!-- <a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">hello@vasubhalodiya.dev</a> -->
+                                <div class="clipboard">
+                                    <input onclick="copy()" class="copy-input" value="hello@vasubhalodiya.dev" id="copyClipboard" readonly>
+                                    <div id="copied-success" class="copied">
+                                        <span>Copied!</span>
+                                    </div>
+                                </div>
                             </div>
                             <div class="footer-contact-reply">
                                 <p>I usually reply faster than 12h</p>
@@ -690,6 +696,19 @@
                     }
                 });
             });
+        </script>
+
+        <script>
+            function copy() {
+                let copyText = document.getElementById("copyClipboard");
+                let copySuccess = document.getElementById("copied-success");
+                // copyText.select();
+                // copyText.setSelectionRange(0, 99999);
+                navigator.clipboard.writeText(copyText.value);
+
+                copySuccess.style.opacity = "1";
+                setTimeout(function () { copySuccess.style.opacity = "0" }, 2000);
+            }
         </script>
 
     </body>
