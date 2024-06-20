@@ -9,13 +9,12 @@
 {
     .header-stream h1{font-size: 40px;}
     .grid-links-head li h2{display: none;}
-    .grid-links-part ul{width: 100%; height: 100%; display: flex;flex-wrap: wrap;flex-direction: row;gap: 15px;}
+    .grid-links-part ul{width: 100%; height: 100%; display: flex;flex-direction: unset; gap: 15px;}
     .grid-links-part ul .grid-link-desktop{display: none;}
     .grid-link-mobile{display: block;}
     .grid-links-part li{margin-top: 0px;padding: 20px;}
-    
 
-    .about-grid{width: 100%;height: 2430px;}
+    .about-grid{width: 100%;height: 2260px;}
     .about-grid-content{max-width: 900px;}
     .grid-container{
         width: 100%;
@@ -42,13 +41,13 @@
 {
     .header-stream h1{font-size: 38px;}
     .grid-links-head li h2{display: none;}
-    .grid-links-part ul{width: 100%; height: 100%; display: flex;flex-wrap: wrap;flex-direction: row;gap: 15px;}
+    .grid-links-part ul{width: 100%; height: 100%; display: flex;flex-direction: unset; gap: 15px;}
     .grid-links-part ul .grid-link-desktop{display: none;}
     .grid-link-mobile{display: block;}
     .grid-links-part li{margin-top: 0px;padding: 20px;}
 
 
-    .about-grid{width: 100%;height: 2430px;}
+    .about-grid{width: 100%;height: 2260px;}
     .about-grid-content{max-width: 900px;}
     .grid-container{
         width: 100%;
@@ -82,7 +81,7 @@
     .about-grid-content{padding: 70px 0px;}
     .grid-slider-software, .grid-slider-technology{display: flex;align-items: center;justify-content: space-between;gap: 10px;}
     .grid-slider-marquee{width: 85%;}
-    .footer-head h1{font-size: 70px;}
+    .footer-head h1{font-size: 65px;}
     .footer{padding: 60px 0px;padding-bottom: 20px;}
     .footer-contact-btn a{font-size: 15px; padding: 12px 28px;}
     .footer-contact-reply p{font-size: 13px;}
@@ -130,11 +129,11 @@
     .about-grid-content{padding: 70px 0px;}
     .grid-slider-software, .grid-slider-technology{display: flex;align-items: center;justify-content: space-between;gap: 10px;}
     .grid-slider-marquee{width: 85%;}
-    .footer-head h1{font-size: 50px;}
     .footer{padding: 50px 0px;padding-bottom: 20px;}
     .footer-contact-btn a{font-size: 14px; padding: 11px 25px;}
     .footer-contact-reply p{font-size: 12px;}
-    .footer-head{margin-bottom: 60px;}
+    .footer-head{margin-bottom: 130px;}
+    .footer-head h1{font-size: 55px;}
     .footer-cnt{margin-bottom: 40px;}
     .grid-profile-img img{width: 115px;}
     .grid-profile-round-text p{width: 150px;height: 150px;left: -18px;top: -17px;}
@@ -170,7 +169,7 @@
     .grid-link-mobile{display: block;}
     .grid-links-part li{margin-top: 0px;padding: 20px;}
     
-    .about-grid{width: 100%;height: 2580px;padding: 0; padding-top: 40px;}
+    .about-grid{width: 100%;height: 2570px;padding: 0; padding-top: 40px;}
 	.about-grid-content{max-width: 500px;}
     .grid-container{
         width: 100%;
@@ -221,15 +220,14 @@
     .grid-email-head h3{font-size: 40px;}
     .grid-email-head p{font-size: 14px;}
     .grid-email-hello a{font-size: 15px;}
-    .footer-head h1{font-size: 50px;text-align: center;}
+    .footer-head h1{font-size: 55px;text-align: center;}
     .grid-project-txt-link p{display: none;}
     .skill-slider-head-arrow button{padding: 0px 4px;}
-    /* .grid-slider-software, .grid-slider-technology{display: block;} */
 
 
 
 
-    .about-grid{width: 100%;height: 2630px;padding-top: 30px;}
+    .about-grid{width: 100%;height: 2620px;padding-top: 30px;}
     .about-grid-content{max-width: 420px;padding: 60px 0px;}
     .grid-container{
         width: 100%;
@@ -276,6 +274,8 @@
     .about-grid{width: 100%;height: 2750px;padding-top: 30px;}
     .grid-link-id h6{font-size: 15px;}
     .grid-links-part li{margin-top: 0px;padding: 14px;}
+    .footer-head h1{font-size: 50px;text-align: center;}
+    .grid-slider-software, .grid-slider-technology{flex-wrap: wrap;}
 }
 
 @media screen and (max-width:375px)
@@ -286,7 +286,7 @@
 
 @media screen and (max-width:325px)
 {
-    .about-grid{width: 100%;height: 2970px;padding-top: 30px;}
+    .about-grid{width: 100%;height: 2930px;padding-top: 30px;}
     .grid-links-head li h2{display: none;}
     .grid-links-part ul{width: 100%; height: 100%; display: flex;flex-wrap: wrap;flex-direction: row;gap: 15px;}
     .grid-links-part ul .grid-link-desktop{display: none;}

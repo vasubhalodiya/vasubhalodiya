@@ -1569,7 +1569,7 @@ li{
 .footer
 {
     padding: 70px 0px;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
 }
 
 .footer-cnt
@@ -1582,7 +1582,7 @@ li{
     display: flex;
     align-content: center;
     justify-content: center;
-    margin-bottom: 70px;
+    margin-bottom: 130px;
 }
 
 .footer-head h1
@@ -1633,6 +1633,8 @@ li{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border-top: 1px solid var(--border-color);
+    padding-top: 15px;
 }
 
 .footer-copyright a
