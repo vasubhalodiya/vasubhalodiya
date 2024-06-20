@@ -148,7 +148,9 @@
     .skill-slider-arrow{display: none;}
     .skill-slider-head-arrow{display: block;}
     .skill-slider-head-arrow button{padding: 0px 4px;}
-
+    .mobile-view{display: none;}
+    .nav-social-media{display: none;}
+    
     .about-grid{width: 100%;height: 2580px;padding: 0; padding-top: 40px;}
 	.about-grid-content{max-width: 500px;}
     .grid-container{
@@ -172,7 +174,6 @@
     .grid-cnt{height: 250px;}
     .grid-profile, .grid-linkedin{height: 245px;}
     .grid-project{height: 100%;}
-    .mobile-view{display: none;}
   
 }
 
