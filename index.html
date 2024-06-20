@@ -435,8 +435,20 @@
                                 </div>
                                 <div class="grid-cnt grid-skill">
                                     <div class="grid-skill-cnt">
-                                        <div class="grid-sec-head">
+                                        <div class="grid-sec-head grid-skill-head">
                                             <h3>Skills</h3>
+                                            <div class="skill-slider-head-arrow">
+                                                <button class="prev-head-btn">
+                                                    <div class="grid-skill-arrow">
+                                                        <i class="fa-regular fa-chevron-left"></i>
+                                                    </div>
+                                                </button>
+                                                <button class="next-head-btn">
+                                                    <div class="grid-skill-arrow">
+                                                        <i class="fa-regular fa-chevron-right"></i>
+                                                    </div>
+                                                </button>
+                                            </div>
                                         </div>
                                         <div class="grid-skill-slider">
                                             <div class="skill-slider-arrow">
@@ -596,6 +608,26 @@
                         $(".next-btn").addClass("slick-disabled");
                     } else {
                         $(".next-btn").removeClass("slick-disabled");
+                    }
+                });
+                $(".prev-head-btn").click(function () {
+                    $(".skill-slider").slick("slickPrev");
+                });
+    
+                $(".next-head-btn").click(function () {
+                    $(".skill-slider").slick("slickNext");
+                });
+                $(".prev-head-btn").addClass("slick-disabled");
+                $(".skill-slider").on("afterChange", function () {
+                    if ($(".slick-prev").hasClass("slick-disabled")) {
+                        $(".prev-head-btn").addClass("slick-disabled");
+                    } else {
+                        $(".prev-head-btn").removeClass("slick-disabled");
+                    }
+                    if ($(".slick-next").hasClass("slick-disabled")) {
+                        $(".next-head-btn").addClass("slick-disabled");
+                    } else {
+                        $(".next-head-btn").removeClass("slick-disabled");
                     }
                 });
             });

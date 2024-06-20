@@ -144,7 +144,10 @@
     .grid-skill-cnt{padding-bottom: 20px;}
     .skill-slider-cnt h4{font-size: 20px;margin-bottom: 15px;}
     .skill-slider-cnt p{font-size: 15px;}
-    .skill-slider{width: 82%;}
+    .skill-slider{width: 100%;}
+    .skill-slider-arrow{display: none;}
+    .skill-slider-head-arrow{display: block;}
+    .skill-slider-head-arrow button{padding: 0px 4px;}
 
     .about-grid{width: 100%;height: 2580px;padding: 0; padding-top: 40px;}
 	.about-grid-content{max-width: 500px;}
@@ -193,20 +196,20 @@
     .grid-exp-company h5{font-size: 14px;}
     .grid-skill-arrow i{font-size: 11px;padding: 8px 10px;}
     .skill-slider-cnt p{font-size: 14px;}
-    .skill-slider{width: 85%;}
+    .skill-slider{width: 100%;padding-left: 1px;}
     .grid-email-head h3{font-size: 40px;}
     .grid-email-head p{font-size: 14px;}
     .grid-email-hello a{font-size: 15px;}
-    .footer-head h1{font-size: 40px;}
+    .footer-head h1{font-size: 50px;text-align: center;}
+    .grid-project-txt-link p{display: none;}
+    .skill-slider-head-arrow button{padding: 0px 4px;}
+    .grid-slider-software, .grid-slider-technology{display: block;}
 
 
 
 
-
-
-
-    .about-grid{width: 100%;height: 2700px;}
-    .about-grid-content{max-width: 420px;}
+    .about-grid{width: 100%;height: 2630px;padding-top: 30px;}
+    .about-grid-content{max-width: 420px;padding: 60px 0px;}
     .grid-container{
         width: 100%;
         height: 300px;
@@ -226,7 +229,6 @@
             "grid-email grid-email"
             "grid-links grid-links"; }
     .grid-cnt{height: 250px;}
-    .grid-skill{height: 280px;}
     .grid-profile, .grid-linkedin{height: 202px;}
     .grid-project{height: 100%;}
 	
@@ -236,5 +238,30 @@
 @media screen and (max-width:480px)
 {
     
-	
+	.grid-cnt{height: 300px;}
+    .grid-project{height: 100%;}
+    .grid-about-dtl p{font-size: 14px;}
+    .grid-profile, .grid-linkedin{height: 170px;}
+    .grid-profile-img img{width: 75px;}
+    .grid-profile-round-text p{width: 102px;height: 102px;left: -13px;top: -13px;}
+    .grid-profile-round-text p span{font-size: 8px;}
+    .grid-linkedin-icon i{font-size: 75px;}
+    .grid-project-card-simple{padding: 12px;border-radius: 12px;}
+    .grid-exp-card{flex-wrap: wrap;}
+    .grid-exp-time{width: 100%;}
+    .grid-email-head h3{font-size: 30px;}
+    .grid-email-head p{font-size: 11px;letter-spacing: 0.3px;}
+    .grid-email{height: 240px;}
+    .about-grid{width: 100%;height: 2750px;padding-top: 30px;}
+
+}
+
+@media screen and (max-width:375px)
+{
+    .about-grid{width: 100%;height: 2720px;padding-top: 30px;}
+}
+
+@media screen and (max-width:325px)
+{
+    .about-grid{width: 100%;height: 2690px;padding-top: 30px;}
 }

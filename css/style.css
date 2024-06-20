@@ -1342,6 +1342,13 @@ li{
 
 /* ====================================================== */
 
+.grid-skill-head
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .grid-skill-cnt
 {
     width: 100%;
@@ -1353,10 +1360,15 @@ li{
     padding-bottom: 50px;
 }
 
-.prev-btn, .next-btn
+.prev-btn, .next-btn, .prev-head-btn, .next-head-btn
 {
     background: none;
     border: none;
+}
+
+.skill-slider-head-arrow
+{
+    display: none;
 }
 
 .grid-skill-slider
@@ -1439,6 +1451,7 @@ li{
     font-size: 45px;
     font-family: var(--heading);
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .grid-email-head p
