@@ -716,7 +716,7 @@ li{
         "grid-skill grid-skill grid-email grid-email";
 }
 
-.grid-cnt, .project-cnt
+.grid-cnt, .about-cnt
 {
     width: 100%;
     height: 300px;
@@ -1666,69 +1666,66 @@ li{
     transition: all 0.5s ease;
 }
 
-.project-container 
+.close-btn-content a i:hover
+{
+    color: var(--main-background);
+    background-color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 13px 15px;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: all 0.5s ease;
+}
+
+.about-container 
 {
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-auto-columns: 1fr;
-    gap: 15px 15px;
+    gap: 15px;
     grid-auto-flow: row;
     grid-template-areas:
-        "project-about project-about project-profile project-email"
-        "project-about project-about project-skill project-skill"
-        "project-experience project-experience project-stack project-stack";
+        "about-about about-about about-profile"
+        "about-about about-about about-profile"
+        "about-about about-about about-email";
 }
 
-.project-grid-content
+.about-grid-content
 {
     padding-bottom: 70px;
     max-width: 1200px;
     margin: auto;
 }
 
-.project-about 
+.about-about 
 {
     height: 100%;
-    grid-area: project-about;
+    grid-area: about-about;
 }
 
-.project-experience 
+.about-profile 
 {
-    grid-area: project-experience;
+    height: 500px;
+    grid-area: about-profile;
 }
 
-.project-profile 
+.about-email 
 {
-    grid-area: project-profile;
+    grid-area: about-email;
 }
 
-.project-email 
-{
-    grid-area: project-email;
-}
-
-.project-skill 
-{
-    grid-area: project-skill;
-}
-
-.project-stack 
-{
-    grid-area: project-stack;
-}
-
-.project-profile img
+.about-profile img
 {
     width: 100%;
-    max-height: 300px;
+    height: 100%;
     border-radius: 15px;
     object-fit: cover;
 }
 
-.project-slider-software, .project-slider-technology
+.about-slider-software, .about-slider-technology
 {
     width: 100%;
     display: flex;
@@ -1737,12 +1734,12 @@ li{
     gap: 15px;
 }
 
-.project-slider-marquee
+.about-slider-marquee
 {
     width: 100%;
 }
 
-.project-about
+.about-about
 {
     padding: 20px;
 }
