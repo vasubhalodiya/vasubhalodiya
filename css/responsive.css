@@ -38,25 +38,27 @@
 
 /* ============================================== */
 
-    .about-grid-content{max-width: 900px;}
+    .aboutus-grid-content{max-width: 900px;height: 1180px;}
     .about-container 
     {
         width: 100%;
         height: 300px;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         grid-auto-columns: 1fr;
         gap: 15px;
         grid-auto-flow: row;
         grid-template-areas:
-            "about-about about-about about-profile"
-            "about-about about-about about-profile"
-            "about-about about-about about-email";
+            " about-profile about-email"
+            "about-about about-about"
+            "about-about about-about";
     }
-    .about-cnt{height: 270px;}
-    .about-about{height: 100%;}
-    .about-profile{height: 380px;}
+    .about-cnt{height: 300px;}
+    .about-about{height: 780px;}
+    .about-profile{width: 300px;height: 300px;}
+    .about-email{width: 600px; height: 100%;}
+
 
 
 
@@ -98,7 +100,7 @@
 
 /* ============================================== */
 
-    .about-grid-content{max-width: 700px;}
+    .aboutus-grid-content{max-width: 700px;height: 1200px;}
     .about-container 
     {
         width: 100%;
@@ -115,6 +117,7 @@
             "about-about about-about";
     }
     .about-cnt{height: 300px;}
+    .about-about{height: 850px;}
     .about-profile{width: 250px;height: 250px;}
     .about-email{width: 450px; height: 100%;}
 
@@ -180,7 +183,7 @@
 
 /* ============================================== */
 
-    .about-grid-content{max-width: 600px;}
+    .aboutus-grid-content{max-width: 600px;height: 1280px;}
     .about-container 
     {
         width: 100%;
@@ -197,6 +200,7 @@
             "about-about about-about";
     }
     .about-cnt{height: 300px;}
+    .about-about{height: 930px;}
     .about-profile{width: 200px;height: 250px;}
     .about-email{width: 400px; height: 100%;}
 
@@ -295,9 +299,27 @@
 
 /* ============================================== */
 
-    .about-grid-content{max-width: 500px;}
-    
-
+    .aboutus-grid-content{max-width: 500px;height: 1350px;}
+    .about-container 
+    {
+        width: 100%;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-auto-columns: 1fr;
+        gap: 15px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            " about-profile about-email"
+            "about-about about-about"
+            "about-about about-about";
+    }
+    .about-cnt{height: 300px;}
+    .about-about{height: 1000px;}
+    .about-profile{width: 200px;height: 250px;}
+    .about-email{width: 300px; height: 100%;}
+    .aboutus-email-head h3{font-size: 32px;}
 
 
 
@@ -373,11 +395,26 @@
 
 /* ============================================== */
 
-    .about-grid-content{max-width: 420px;padding: 60px 0px;}
-    
-
-
-
+    .aboutus-grid-content{max-width: 380px;height: 1980px;padding: 60px 0px;}
+    .about-container 
+    {
+        width: 100%;
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-auto-columns: 1fr;
+        gap: 15px;
+        grid-auto-flow: row;
+        grid-template-areas:
+            " about-profile"
+            "about-about"
+            " about-email";
+    }
+    .about-cnt{height: 300px;}
+    .about-about{height: 1220px;}
+    .about-profile{width: 100%;height: 400px;}
+    .about-email{width: 100%; height: 200px;}
 
 
 
@@ -425,9 +462,13 @@
     .grid-slider-software, .grid-slider-technology{flex-wrap: wrap;}
     .copy-input{width: 240px;padding: 12px 0px;}
 
+/* ============================================ */
 
-
-
+    .about .container{margin: auto;padding: 0;}
+    .about-profile{width: 100%;height: 300px;}
+    .about-email{width: 100%; height: 200px;}
+    .aboutus-grid-content{max-width: 320px;height: 2030px;}
+    .about-about{height: 1380px;}
 
 
 
@@ -451,9 +492,9 @@
 @media screen and (max-width:375px)
 {
     .about-grid{width: 100%;height: 2720px;padding-top: 30px;}
-    
-
-
+    .aboutus-grid-content{max-width: 300px;}
+    .aboutus-grid-content{max-width: 330px;height: 2030px;}
+    .about-about{height: 1380px;}
 
 
 
@@ -473,6 +514,8 @@
     .grid-links-part ul .grid-link-desktop{display: none;}
     .grid-link-mobile{display: block;}
     .grid-link-devide{display: flex;flex-direction: column;}
+    .aboutus-grid-content{max-width: 330px;height: 2150px;}
+    .about-about{height: 1500px;}
 
 
 

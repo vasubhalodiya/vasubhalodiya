@@ -681,8 +681,8 @@ li{
     width: 100%;
     /* height: 100%; */
     /* height: 3050px; */
-    padding: 100px 0px;
-    padding-top: 50px;
+    padding: 50px 0px;
+    /* padding-top: 50px; */
     border-bottom: 1px solid var(--border-color);
 }
 
@@ -1695,9 +1695,16 @@ li{
 
 .about-grid-content
 {
-    padding-bottom: 70px;
     max-width: 1200px;
     margin: auto;
+    padding-bottom: 70px;
+}
+
+.aboutus-grid-content
+{
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 70px;
 }
 
 .about-about 
@@ -1744,9 +1751,109 @@ li{
     padding: 20px;
 }
 
+.about-sec-head
+{
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
 
+.aboutus-dtl
+{
+    margin-bottom: 30px;
+}
 
+.aboutus-dtl h6
+{
+    color: var(--primary-color);
+    font-size: 15px;
+    font-family: 'Gs-Medium';
+    letter-spacing: 2px;
+    margin-bottom: 7px;
+    text-transform: uppercase;
+}
 
+.aboutus-dtl, .aboutus-dtl-last p
+{
+    color: var(--content-color);
+    font-size: var(--content-size);
+    font-family: var(--content);
+    letter-spacing: 0.5px;
+}
+
+.aboutus-dtl-last h1
+{
+    width: 250px;
+    color: var(--content-color);
+    font-size: 50px;
+    font-family: 'Signature-Font';
+    margin-top: 20px;
+    rotate: 350deg;
+}
+
+.aboutus-email-cnt
+{
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutus-email-head
+{
+    padding-bottom: 40px;
+    margin-top: -10px;
+}
+
+.aboutus-email-head h3
+{
+    color: var(--primary-color);
+    font-size: 40px;
+    font-family: var(--heading);
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.aboutus-email-head p
+{
+    color: var(--content-color);
+    font-size: 15px;
+    font-family: var(--content);
+    text-align: center;
+}
+
+.aboutus-email-hello a
+{
+    color: var(--main-background);
+    background-color: var(--primary-color);
+    font-size: var(--content-size);
+    font-family: 'Gs-Medium';
+    padding: 12px 30px;
+    border-radius: 50px;
+}
+
+.aboutus-email-hello a:hover i
+{
+    animation-name: wave;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave {
+    0% { transform: rotate( 0.0deg) }
+   10% { transform: rotate(14.0deg) }
+   20% { transform: rotate(-8.0deg) }
+   30% { transform: rotate(14.0deg) }
+   40% { transform: rotate(-4.0deg) }
+   50% { transform: rotate(10.0deg) }
+   60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
+}
 
 
 
