@@ -424,6 +424,7 @@
     .about-about{height: 1220px;}
     .about-profile{width: 100%;height: 400px;}
     .about-email{width: 100%; height: 200px;}
+    .close-btn{padding: 50px 0px;}
 
 /* ============================================== */
 
@@ -478,6 +479,7 @@
     .about-email{width: 100%; height: 200px;}
     .aboutus-grid-content{max-width: 320px;height: 1980px;}
     .about-about{height: 1380px;}
+    .close-btn{padding: 50px 0px;}
 
 /* ============================================== */
 
