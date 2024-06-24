@@ -353,7 +353,7 @@
     
 /* ============================================== */
 
-    .project .container{max-width: 85%;}
+    .project .container{max-width: 90%;}
     .project-card a{padding: 15px;}
     .project-txt-icon img{width: 40px;}
 
@@ -454,6 +454,7 @@
 
 /* ============================================== */
     
+    .project .container{max-width: 85%;}
     .project-txt-name h5{margin: 0;}
 
 
