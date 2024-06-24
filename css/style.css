@@ -1664,6 +1664,10 @@ li{
     border-radius: 50px;
     font-size: 18px;
     transition: all 0.5s ease;
+
+    /* position: absolute;
+    top: 20px;
+    right: 20px; */
 }
 
 .close-btn-content a i:hover
@@ -1855,8 +1859,184 @@ li{
   100% { transform: rotate( 0.0deg) }
 }
 
+/* ********************************************************************************************************************************************************************************************************************************************************************************************************************************************** */
 
+.contact
+{
+    /* padding: 60px 0px; */
+    padding-bottom: 70px;
+}
 
+.contact .container
+{
+    max-width: 70%;
+}
+
+.contact-card
+{
+    background-color: var(--grid-bg-color);
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.contact-head
+{
+    border-bottom: 1px solid var(--border-color);
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-dots
+{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-dot-red
+{
+    width: 12px;
+    height: 12px;
+    background-color: #F63636;
+    border-radius: 10px;
+}
+
+.contact-dot-yellow
+{
+    width: 12px;
+    height: 12px;
+    background-color: #F6C136;
+    border-radius: 10px;
+}
+
+.contact-dot-green
+{
+    width: 12px;
+    height: 12px;
+    background-color: #68F636;
+    border-radius: 10px;
+}
+
+.contact-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title h6
+{
+    color: var(--primary-color);
+    font-size: var(--content-font-size);
+    font-family: 'Gs-Medium';
+    text-align: center;
+    letter-spacing: 0.5px;
+}
+
+.contact-main-form
+{
+    padding: 20px 30px;
+}
+
+.contact-field
+{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.contact-field h5
+{
+    color: var(--primary-color);
+    font-size: var(--content-font-size);
+    font-family: 'Gs-Medium';
+    letter-spacing: 0.5px;
+}
+
+.contact-field input
+{
+    width: 100%;
+    color: var(--primary-color);
+    font-size: 15px;
+    font-family: var(--content);
+    background-color: transparent;
+    border: none;
+    letter-spacing: 0.5px;
+}
+
+.contact-field input::placeholder, .contact-field-msg textarea::placeholder
+{
+    color: rgb(128, 128, 128, 0.6);
+}
+
+.contact-field-msg textarea
+{
+    width: 100%;
+    color: var(--primary-color);
+    background-color: #0D0D0D;
+    font-size: 15px;
+    font-family: var(--content);
+    border: none;
+    resize: none;
+    padding: 20px;
+    border-radius: 10px;
+    letter-spacing: 0.5px;
+}
+
+.contact-btn
+{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 30px;
+}
+
+.contact-btn a
+{
+    color: var(--primary-color);
+    font-size: var(--content-font-size);
+    font-family: var(--content);
+    background-color: var(--card-bg-color);
+    padding: 10px 30px;
+    border: 1px solid var(--border-color);
+    border-radius: 7px;
+}
+
+.contact-social-media
+{
+    padding: 40px 0px;
+}
+
+.social-media-menu ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-media-menu a
+{
+    color: var(--content-color);
+    font-size: 23px;
+    padding: 12px 17px;
+    border-radius: 10px;
+}
+
+.social-media-menu a:hover
+{
+    color: var(--primary-color);
+    background-color: #202020;
+    font-size: 23px;
+    padding: 12px 17px;
+    border-radius: 10px;
+    transform: scale(1.1);
+}
 
 
 
