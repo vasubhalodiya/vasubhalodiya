@@ -64,8 +64,11 @@
     .contact .container{max-width: 80%;}
     .contact-dots{width: 43%;}
 
+/* ============================================== */
 
-
+    .project .container{max-width: 85%;}
+    .project-card a{padding: 15px;}
+    .project-txt-icon img{width: 40px;}
 
 
 
@@ -135,6 +138,11 @@
     .contact .container{max-width: 80%;}
     .contact-dots{width: 43%;}
 
+/* ============================================== */
+
+    .project .container{max-width: 85%;}
+    .project-card a{padding: 15px;}
+    .project-txt-icon img{width: 40px;}
 
 
 
@@ -218,6 +226,11 @@
     .contact .container{max-width: 85%;}
     .contact-dots{width: 41%;}
 
+/* ============================================== */
+
+    .project .container{max-width: 85%;}
+    .project-card a{padding: 15px;}
+    .project-txt-icon img{width: 40px;}
 
 
 
@@ -338,6 +351,12 @@
     .contact-main-form{padding: 15px 25px;}
     .contact-dots{width: 39%;}
     
+/* ============================================== */
+
+    .project .container{max-width: 85%;}
+    .project-card a{padding: 15px;}
+    .project-txt-icon img{width: 40px;}
+
 
 
 
@@ -433,6 +452,9 @@
     .contact-field{flex-wrap: wrap;gap: 8px;padding-bottom: 10px; margin-bottom: 25px;}
     .contact-main-form{padding: 20px;}
 
+/* ============================================== */
+    
+    .project-txt-name h5{margin: 0;}
 
 
 

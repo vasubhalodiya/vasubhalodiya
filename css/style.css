@@ -1994,7 +1994,7 @@ li{
     margin-top: 30px;
 }
 
-.contact-btn a
+.contact-btn input
 {
     color: var(--primary-color);
     font-size: var(--content-font-size);
