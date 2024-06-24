@@ -330,6 +330,7 @@
     .about-email{width: 300px; height: 100%;}
     .aboutus-email-head h3{font-size: 32px;}
     .close-btn{padding: 50px 0px;}
+    .aboutus-dtl, .aboutus-dtl-last p{font-size: 16px;letter-spacing: 0.6px;}
 
 /* ============================================== */
 
@@ -525,7 +526,7 @@
     .grid-links-part ul .grid-link-desktop{display: none;}
     .grid-link-mobile{display: block;}
     .grid-link-devide{display: flex;flex-direction: column;}
-    .aboutus-grid-content{max-width: 330px;height: 2150px;}
+    .aboutus-grid-content{max-width: 290px;height: 2090px;}
     .about-about{height: 1500px;}
 
 
