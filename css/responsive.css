@@ -62,7 +62,7 @@
 /* ============================================== */
 
     .contact .container{max-width: 80%;}
-
+    .contact-dots{width: 43%;}
 
 
 
@@ -133,7 +133,7 @@
 /* ============================================== */
 
     .contact .container{max-width: 80%;}
-
+    .contact-dots{width: 43%;}
 
 
 
@@ -216,7 +216,7 @@
 /* ============================================== */
 
     .contact .container{max-width: 85%;}
-
+    .contact-dots{width: 41%;}
 
 
 
@@ -335,13 +335,9 @@
 /* ============================================== */
 
     .contact .container{max-width: 85%;}
-
-
-
-
-
-
-
+    .contact-main-form{padding: 15px 25px;}
+    .contact-dots{width: 39%;}
+    
 
 
 
@@ -430,9 +426,12 @@
 /* ============================================== */
 
     .contact .container{max-width: 95%;}
-
-
-
+    .contact-dot-circle{width: 10px;height: 10px;gap: 8px;}
+    .contact-title h6{font-size: 15px;}
+    .contact-field-msg textarea{height: 200px;}
+    .contact{padding-bottom: 50px;}
+    .contact-field{flex-wrap: wrap;gap: 8px;padding-bottom: 10px; margin-bottom: 25px;}
+    .contact-main-form{padding: 20px;}
 
 
 
