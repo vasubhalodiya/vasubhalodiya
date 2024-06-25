@@ -540,6 +540,11 @@ li{
     padding: 0;
 }
 
+.nav-logo img
+{
+    width: 30px;
+}
+
 .navbar-content
 {
     width: 100%;
@@ -1561,6 +1566,11 @@ li{
 .footer-cnt
 {
     margin-bottom: 60px;
+}
+
+.footer-name a img
+{
+    width: 30px;
 }
 
 .footer-head
