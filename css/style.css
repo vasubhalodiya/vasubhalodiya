@@ -542,7 +542,15 @@ li{
 
 .nav-logo img
 {
-    width: 30px;
+    width: 100%;
+    margin-top: -13px;
+}
+
+.nav-logo h6
+{
+    color: var(--primary-color);
+    font-size: 20px;
+    font-family: 'Gs-Medium';
 }
 
 .navbar-content
@@ -1570,7 +1578,7 @@ li{
 
 .footer-name a img
 {
-    width: 30px;
+    width: 100%;
 }
 
 .footer-head
