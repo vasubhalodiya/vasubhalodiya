@@ -1815,6 +1815,14 @@ li{
     rotate: 350deg;
 }
 
+.aboutus-dtl p a
+{
+    color: var(--primary-color);
+    font-size: var(--content-size);
+    font-family: 'Gs-Medium';
+    text-decoration: underline;
+}
+
 .aboutus-email-cnt
 {
     width: 100%;
@@ -2074,6 +2082,45 @@ li{
     margin: 0px;
 }
 
+.coming-soon
+{
+    color: var(--primary-color);
+    background-color: #171717;
+    border: 1px solid var(--border-color);
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.5s ease;
+    opacity: 0.6;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.coming-soon:hover
+{
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.coming-soon-txt h4
+{
+    color: var(--primary-color);
+    background-color: #fe2f2f;
+    font-size: 20px;
+    font-family: 'Gs-Medium';
+    padding: 7px;
+    border-radius: 7px;
+    text-align: center;
+
+    position: absolute;
+    top: 21%;
+    left: 50%;
+}
+
 .project-card a
 {
     color: var(--primary-color);
@@ -2097,6 +2144,7 @@ li{
 {
     width: 45px;
     margin-bottom: 15px;
+    border-radius: 8px;
 }
 
 .project-txt-name h5
