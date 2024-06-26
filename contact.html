@@ -27,13 +27,6 @@
     </head>
 <!-- ******************************************************************************************** -->
     <body>
-        <!-- <div class="clipboard">
-            <input onclick="copy()" class="copy-input" value="hello@vasubhalodiya.dev" id="copyClipboard" readonly>
-            <button class="copy-btn" id="copyButton" onclick="copy()"><i class="far fa-copy"></i></button>
-        </div>
-        <div id="copied-success" class="copied">
-            <span>Copied!</span>
-        </div> -->
         <div class="main" id="main-site">
             <div class="close-btn">
                 <div class="container">
@@ -59,25 +52,28 @@
                                 </div>
                             </div>
                             <div class="contact-main-form">
-                                <form action="">
+                                <form action="https://api.web3forms.com/submit" method="POST">
+                                    <input type="hidden" name="access_key" value="5cdf6b9c-af22-424a-8d98-42e6788530a9">
+                                    <input type="hidden" name="from_name" value="Vasu Bhalodiya">
+                                    <input type="hidden" name="replyto" value="hello@vasubhalodiya.dev"/>
                                     <div class="contact-field">
                                         <h5>Email&nbsp;:</h5>
-                                        <input type="text" placeholder="Enter email address" required>
+                                        <input type="text" placeholder="Enter email address" name="Email" required>
                                     </div>
                                     <div class="contact-field">
                                         <h5>Name&nbsp;:</h5>
-                                        <input type="text" placeholder="Enter your name" required>
+                                        <input type="text" placeholder="Enter your name" name="Name" required>
                                     </div>
                                     <div class="contact-field">
                                         <h5>Subject&nbsp;:</h5>
-                                        <input type="text" placeholder="Enter subject" required>
+                                        <input type="text" placeholder="Enter subject" name="Subject" required>
                                     </div>
                                     <div class="contact-field-msg">
-                                        <textarea cols="30" rows="10" placeholder="Write your message here" required></textarea>
+                                        <textarea cols="30" rows="10" placeholder="Write your message here" name="Message" required></textarea>
                                     </div>
                                     <div class="contact-btn">
                                         <!-- <a href="#">Send</a> -->
-                                         <input type="submit" value="Send">
+                                        <button type="submit">Send</button>
                                     </div>
                                 </form>
                             </div>
