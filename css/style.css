@@ -251,66 +251,6 @@
     src: url(../css/fonts/GeneralSans-Semibold.ttf);
 }
 
-/* @font-face {
-    font-family: 'Gs-Extralight';
-    src: url('css/fonts/General-sans/GeneralSans-Extralight.woff2') format('woff2'),
-        url('css/fonts/General-sans/GeneralSans-Extralight.woff') format('woff'),
-        url('css/fonts/General-sans/GeneralSans-Extralight.ttf') format('truetype');
-    font-weight: 200;
-    font-display: swap;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gs-Light';
-    src: url('css/fonts/General-sans/GeneralSans-Light.woff2') format('woff2'),
-        url('css/fonts/General-sans/GeneralSans-Light.woff') format('woff'),
-        url('css//fonts/General-sans/GeneralSans-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-display: swap;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gs-Regular';
-    src: url('css/fonts/General-sans/GeneralSans-Regular.woff2') format('woff2'),
-        url('css/fonts/General-sans/GeneralSans-Regular.woff') format('woff'),
-        url('css/fonts/General-sans/GeneralSans-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-display: swap;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gs-Medium';
-    src: url('css/fonts/General-sans/GeneralSans-Medium.woff2') format('woff2'),
-        url('css/fonts/General-sans/GeneralSans-Medium.woff') format('woff'),
-        url('css/fonts/General-sans/GeneralSans-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-display: swap;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gs-Semibold';
-    src: url('css/fonts/General-sans/GeneralSans-Semibold.woff2') format('woff2'),
-        url('css/fonts/General-sans/GeneralSans-Semibold.woff') format('woff'),
-        url('css/fonts/General-sans/GeneralSans-Semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-display: swap;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Gs-Bold';
-    src: url('css/fonts/General-sans/GeneralSans-Bold.woff2') format('woff2'),
-        url('css/fonts/General-sans/GeneralSans-Bold.woff') format('woff'),
-        url('css/fonts/General-sans/GeneralSans-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-display: swap;
-    font-style: normal;
-} */
-
 /* ************** */
 
 @font-face {
@@ -426,7 +366,8 @@ li{
         --grid-hover-color: #181819;
 
     /* Fonts */
-    --heading: 'Gs-SemiBold'; 
+    --heading: 'Gs-SemiBold';
+    --medium-font: 'Gs-Medium';
     --content: 'Gs-Regular';
     --stream-font: 'Og-Bold';
         
@@ -2404,7 +2345,6 @@ input[type="radio"]
     padding: 20px;
     border-radius: 15px;
     transition: all 0.5s ease;
-    opacity: 0.6;
 
     display: flex;
     flex-wrap: wrap;
@@ -2414,25 +2354,31 @@ input[type="radio"]
     position: relative;
 }
 
-.coming-soon:hover
+.coming-soon::after
 {
-    opacity: 0.3;
-    cursor: not-allowed;
-}
-
-.coming-soon-txt h4
-{
-    color: var(--primary-color);
-    background-color: #fe2f2f;
+    content: 'Coming Soon';
+    width: 100%;
+    height: 100%;
+    background: rgb(28, 28, 28, 0.7);
     font-size: 20px;
     font-family: 'Gs-Medium';
-    padding: 7px;
-    border-radius: 7px;
+    letter-spacing: 0.5px;
+    border-radius: 17px;
     text-align: center;
+    padding: 120px 0px;
+    display: none;
+    cursor: pointer;
 
     position: absolute;
-    top: 21%;
-    left: 50%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.coming-soon:hover::after
+{
+    display: block;
 }
 
 .project-card a
