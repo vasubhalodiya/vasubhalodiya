@@ -1534,6 +1534,18 @@ input[type="radio"]
     background-color: #1C1C1C;
 }
 
+.coming-soon-mini
+{
+    transition: transform 0.5s;
+}
+
+.grid-project-card-simple.coming-soon-mini:hover
+{
+    background-color: #1C1C1C;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
 .grid-project-card-simple:hover .grid-project-arrow i
 {
     color: var(--main-background);
@@ -1554,6 +1566,7 @@ input[type="radio"]
 {
     width: 40px;
     margin-bottom: 17px;
+    border-radius: 7px;
 }
 
 .grid-project-txt-name h5
