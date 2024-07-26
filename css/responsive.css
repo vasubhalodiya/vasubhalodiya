@@ -369,7 +369,7 @@
 @media screen and (max-width:575px)
 {
 
-    .home{height: 96vh;}
+    .home{height: 95vh;}
     .grid-sec-arrow i{font-size: 12px;padding: 7px 9px;}
     .grid-linkedin-icon i{font-size: 90px;}
     .grid-profile-img img{width: 100px;}
