@@ -370,6 +370,7 @@
 {
 
     .home{height: 95vh;}
+    .header-chat-content{align-items: center;}
     .grid-sec-arrow i{font-size: 12px;padding: 7px 9px;}
     .grid-linkedin-icon i{font-size: 90px;}
     .grid-profile-img img{width: 100px;}

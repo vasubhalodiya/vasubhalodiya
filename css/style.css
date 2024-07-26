@@ -878,7 +878,7 @@ input[type="radio"]
 .header-chat-content
 {
     display: flex;
-    align-items: center;
+    align-items: end;
     justify-content: space-between;
 }
 
@@ -898,7 +898,7 @@ input[type="radio"]
     height: 40px;
     background-color: var(--other-bg-color); */
     color: var(--primary-color);
-    font-size: 13px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;
     display: flex;
