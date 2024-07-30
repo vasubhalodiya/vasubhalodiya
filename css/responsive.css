@@ -358,9 +358,11 @@
     .project-txt-icon img{width: 40px;}
     .coming-soon-txt h4{width: 120px;font-size: 16px;top: 8%;left: 38%;}
 
+/* ============================================== */
 
+    .not-found-typing p{font-size: 23px;line-height: 28px;border-right: 10px solid #ffe500;margin-bottom: 50px;}
+    .not-fount-home a{padding: 10px 25px;font-size: 15px;}
 
-    
   
 }
 
@@ -508,9 +510,12 @@
 
 /* ============================================== */
 
-.coming-soon-txt h4{width: 140px;font-size: 18px;top: 8%;left: 45%;}
+    .coming-soon-txt h4{width: 140px;font-size: 18px;top: 8%;left: 45%;}
 
+/* ============================================== */
 
+    .not-found-typing p{font-size: 20px;line-height: 25px;border-right: 10px solid #ffe500;margin-bottom: 40px;}
+    .not-fount-home a{padding: 10px 25px;font-size: 15px;}
 
 
 
