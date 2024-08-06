@@ -36,19 +36,64 @@ $('#cb-replay').on('click', function(){
 })
 
 
-const path = 'about.html';
 
-/**
- * Remove the file extension using RegExp.
- *
- * Notes:
- * - Handles strings without extensions
- * - Handles strings with multiple . characters
- * - Does not remove the extension if the string ends with a / or a .
- *
- * \.    -> Match a . character
- * [^/.] -> Match any character not in the set (Not a / or a .)
- * +     -> Match 1 or more of the preceding token
- * $     -> Match the end of the string
- */
-path.replace(/\.[^/.]+$/, ''); // /path/to/filename
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
