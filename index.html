@@ -760,19 +760,6 @@
         <script src="js/wow.min.js"></script>
         <script src="js/script.js"></script>
 
-        <!-- <script>
-            function copy() {
-                let copyText = document.getElementById("copyClipboard");
-                let copySuccess = document.getElementById("copied-success");
-                // copyText.select();
-                // copyText.setSelectionRange(0, 99999);
-                navigator.clipboard.writeText(copyText.value);
-
-                copySuccess.style.opacity = "1";
-                setTimeout(function () { copySuccess.style.opacity = "0" }, 500);
-            }
-        </script> -->
-
         <script>
             //Profile round text
 
@@ -884,6 +871,26 @@
             if (allFaces.hasId("smiley")) {
 
             };
+        </script>
+
+        <script>
+            // shortcut keys that will be disabled
+            const disabledKeys = ["u"];
+
+            const showAlert = (e) => {
+            e.preventDefault(); // prevent default behavior
+            // return alert("This feature is restricted!");
+            };
+
+            // call showAlert on mouse right-click
+            document.addEventListener("contextmenu", showAlert);
+
+            document.addEventListener("keydown", (e) => {
+            // call showAlert, if the pressed key is F12 or matched to disabled keys
+            if ((e.ctrlKey && disabledKeys.includes(e.key)) || e.key === "F12") {
+                showAlert(e);
+            }
+            });
         </script>
 
     </body>
