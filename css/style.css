@@ -2545,15 +2545,6 @@ input[type="radio"]
     background-color: var(--other-bg-color);
 }
 
-.mobile-access h1
-{
-    color: var(--primary-color);
-    font-size: 18px;
-    letter-spacing: 1px;
-    display: none;
-}
-
-
 
 
 
