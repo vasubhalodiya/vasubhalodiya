@@ -2545,9 +2545,31 @@ input[type="radio"]
     background-color: var(--other-bg-color);
 }
 
+.feedback-content
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+    padding-bottom: 0px;
+}
 
+.feedback-content button i
+{
+    font-size: 17px;
+}
 
-
+.feedback-btn
+{
+    color: var(--main-bg-color);
+    background-color: var(--primary-color);
+    font-size: 15px;
+    font-family: 'Gs-medium';
+    border: none;
+    padding: 12px 25px;
+    border-radius: 50px;
+    letter-spacing: 0.5px;
+}
 
 
 
