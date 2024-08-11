@@ -338,7 +338,7 @@
             "about-about about-about";
     }
     .about-cnt{height: 300px;}
-    .about-about{height: 940px;}
+    .about-about{height: 960px;}
     .about-profile{width: 200px;height: 250px;}
     .about-email{width: 300px; height: 100%;}
     .aboutus-email-head h3{font-size: 32px;}
@@ -441,7 +441,7 @@
             " about-email";
     }
     .about-cnt{height: 300px;}
-    .about-about{height: 1130px;}
+    .about-about{height: 1180px;}
     .about-profile{width: 100%;height: 400px;}
     .about-email{width: 100%; height: 200px;}
     .close-btn{padding: 50px 0px;}
@@ -505,7 +505,7 @@
     .about-profile{width: 100%;height: 300px;}
     .about-email{width: 100%; height: 200px;}
     .aboutus-grid-content{max-width: 320px;height: 1920px;}
-    .about-about{height: 1320px;}
+    .about-about{height: 1340px;}
     .close-btn{padding: 50px 0px;}
 
 /* ============================================== */
@@ -534,7 +534,7 @@
 {
     .aboutus-grid-content{max-width: 300px;}
     .aboutus-grid-content{max-width: 330px;height: 2030px;}
-    .about-about{height: 1380px;}
+    .about-about{height: 1310px;}
     .about-grid{width: 100%;height: 2680px;padding-top: 30px;}
 
 
@@ -542,6 +542,13 @@
 
 
 
+}
+
+/* ********************************************************************************************************* */
+
+@media screen and (min-width:325px) and (max-width:336px)
+{
+    .about-about{height: 1310px;}
 }
 
 /* ********************************************************************************************************* */
@@ -555,7 +562,7 @@
     .grid-link-mobile{display: block;}
     .grid-link-devide{display: flex;flex-direction: column;}
     .aboutus-grid-content{max-width: 290px;height: 1960px;}
-    .about-about{height: 1370px;}
+    .about-about{height: 1460px;}
 
     .coming-soon-txt h4{width: 140px;font-size: 18px;top: 8%;left: 38%;}
 
