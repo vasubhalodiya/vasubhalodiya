@@ -320,6 +320,9 @@ body{
     font-family: 'Gs-Regular';
     /* background-color: #141414; */
     background-color: #0b0b0b;
+    background-image: url(../images/noise.png);
+    background-size: 200px 200px;
+    background-position: 0 0;
 }
 .p_0{
     padding: 0px;
