@@ -888,7 +888,10 @@
 
             document.addEventListener("keydown", (e) => {
             // call showAlert, if the pressed key is F12 or matched to disabled keys
-            if ((e.ctrlKey && e.shiftKey && disabledKeys.includes(e.key)) || e.key === "F12") {
+            if ((e.ctrlKey && disabledKeys.includes(e.key)) || e.key === "F12") {
+                showAlert(e);
+            }
+            else if ((e.ctrlKey && e.shiftKey &&disabledKeys.includes(e.key)) || e.key === "F12") {
                 showAlert(e);
             }
             });
