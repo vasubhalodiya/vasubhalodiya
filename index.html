@@ -876,7 +876,7 @@
 
         <script>
             // shortcut keys that will be disabled
-            const disabledKeys = ["u", "i"];
+            const disabledKeys = ["u", "I", "i"];
 
             const showAlert = (e) => {
             e.preventDefault(); // prevent default behavior
@@ -888,7 +888,7 @@
 
             document.addEventListener("keydown", (e) => {
             // call showAlert, if the pressed key is F12 or matched to disabled keys
-            if ((e.ctrlKey && disabledKeys.includes(e.key)) || e.key === "F12") {
+            if ((e.ctrlKey && e.shiftKey && disabledKeys.includes(e.key)) || e.key === "F12") {
                 showAlert(e);
             }
             });
