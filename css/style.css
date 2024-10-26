@@ -1664,7 +1664,7 @@ input[type="radio"]
     margin-bottom: 15px;
 }
 
-.no-border
+.grid-exp-card:last-child
 {
     border: none;
 }
