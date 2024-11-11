@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Vasu Bhalodiya</h1>
 
-<img src="https://raw.githubusercontent.com/vasubhalodiya/vasubhalodiya/main/images/Readme%20Banner.jpg?token=GHSAT0AAAAAACSN6I2ZALWPST7R42T36BM2ZSUSHBQ" alt="Hello world">
+<img src="https://raw.githubusercontent.com/vasubhalodiya/vasubhalodiya.dev/refs/heads/main/images/Readme%20Banner.jpg?token=GHSAT0AAAAAACV3DNCU4QPDLIJIPATERDUWZZR6DUQ" alt="Hello world">
 
 <h1>About me</h1>
 
