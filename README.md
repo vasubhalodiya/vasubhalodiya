@@ -9,7 +9,7 @@
 <h1>Get in touch ☕</h1>
 
 <ul>
-  <li><a href="https://vasubhalodiya.dev" target="blank">My Portfolio</a></li>
+  <li><a href="https://vasubhalodiya.in" target="blank">My Portfolio</a></li>
   <li><a href="https://www.linkedin.com/in/vasu-bhalodiya" target="blank">Linkedin</a></li>
 <!--   <li><a href="https://leetcode.com/vasubhalodiya30" target="blank">Leetcode</a></li> -->
 </ul>
